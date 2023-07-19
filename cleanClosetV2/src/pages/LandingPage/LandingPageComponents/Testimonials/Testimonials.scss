@@ -1,0 +1,130 @@
+@import "../../../../GlobalCss/GlobalCss.scss";
+.TestimonialsMainContaierHeader{
+    margin: 10em 0;
+    font-family: $ComfertaFont;
+    .TestimonialsContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .work{
+            width: 100%;
+                text-align: center;
+                color: $OrangePrimaryColor !important; 
+            
+        }
+        .workh1{
+            color: $GreenPrimaryColor;
+            text-shadow: $shadow1px;
+        }
+        h1{
+            text-align: center;
+            font-size: 48px;
+            width: 90%;
+        }
+        p{
+            text-align: center;
+        }
+        
+        .TestimonialsContainerCardContainer{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin: 4em 0 0 0;
+            gap: 1rem;
+            .TestimonialsContainerCardBody{
+                display: flex;
+                padding: 20px;
+                min-height: 250px;
+                max-width: 650px;
+                border-radius: 10px;
+                .TestimonialsContainerCardBodyImage{
+                    max-height: 250px;
+                    max-width: 200px;
+                    background-color: #fff;
+                    border-radius: 20px;
+                    img{
+                        max-height: 240px;
+                        max-width: 190px;
+                    }
+                }
+                .TestimonialsContainerCardBodyContent{
+                        padding: 0px 0 0 20px ;   
+                        
+                        .TestimonialsContainerCardBCIcon{
+                        img{
+                            height: 50px;
+                            width: 50px;
+                        }
+                    }
+                    .TestimonialsContainerCardBCC{
+                        width: 100%;
+                        min-height: 180px;
+                        position: relative;
+            .TestimonialsContainerCardBCCdesignation{
+                        position: absolute;
+                        bottom: 0%;
+                        }
+                        h6{
+                            text-align: left;
+                            font-weight: 600;
+                        }
+                        p{
+                            margin: 0;
+                            line-height: 0.5;
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#cardbody1{
+    background-color: $greenLigntBackgroundColr;
+}
+#cardbody2{
+    background-color: $orangeLigntBackground;
+    color: #000000;
+}
+
+@media (max-width:900px){
+    .TestimonialsMainContaierHeader{
+        .TestimonialsContainer{
+            .TestimonialsContainerCardContainer{
+                flex-direction: column;
+                .TestimonialsContainerCardBody{
+                    .TestimonialsContainerCardBodyImage{
+                        max-height: 200px;
+                        max-width: 150px;
+                        background-color: #fff;
+                        border-radius: 10px;
+                        img{
+                            max-height: 190px;
+                            max-width: 140px;
+                        }
+                    }
+                    .TestimonialsContainerCardBodyContent{
+                            padding: 0px 0 0 20px ;                    .TestimonialsContainerCardBCIcon{
+                            img{
+                                height: 50px;
+                                width: 50px;
+                            }
+                        }
+                        .TestimonialsContainerCardBCC{
+                            width: 100%;
+                            min-height: 180px;
+                            position: relative;
+                .TestimonialsContainerCardBCCdesignation{
+                            position: absolute;
+                            bottom: 0%;
+                            }
+                        
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

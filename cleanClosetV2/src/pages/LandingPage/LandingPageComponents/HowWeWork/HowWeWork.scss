@@ -1,0 +1,82 @@
+@import "../../../../GlobalCss//GlobalCss.scss";
+
+.HowWeMainContainer {
+    background-color: $greenLigntBackgroundColr;
+    .howweworkcontainer {
+        padding: $MainContainerMargin;
+        font-family: $ComfertaFont;
+        text-align: center;
+        h6{
+            color: $OrangePrimaryColor;
+        }
+        h1{
+            color: $GreenPrimaryColor;
+            text-shadow: $shadow1px;
+            font-size: 64px;
+        }
+        .HowWeWorkCardContainer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            // gap: 6rem;
+            margin-top: 4em;
+            
+            .HowWeWOrkCardBody {
+                // background-color: $mutedColor;
+                background-color: #fff;
+                max-width: 350px;
+                border-radius: 10px;
+                box-shadow: $box-shadow1;
+                display: grid;
+                place-content: center;
+                place-items: center;
+                min-height: 200px;
+                margin: 50px 10px ;
+
+                #donateatyour {
+                    margin: 40px 0 0 0;
+                }
+
+                .HowWeWorkCardicon {
+                    border-radius: 50%;
+                    height: 100px;
+                    width: 100px;
+                    margin-top: -50px;
+                    background-color: $orangeLigntBackground;
+                    display: grid;
+                    place-content: center;
+                    box-shadow: $box-shadow1;
+                    i{
+                        font-size: 34px;
+                        color: $OrangePrimaryColor;
+                    }
+                    img {
+                        width: 40px;
+                        height: 40px;
+                    }
+
+
+                }
+
+                .HwwCardHeading {
+                    color: #45342E;
+                    text-shadow: $shadow1px;
+                    margin: 20px 0;
+                }
+
+                .HwwCardPara {
+                    width: 70%;
+                }
+
+                .HwwCardButton {
+                    margin: 20px 0 -20px 0;
+
+                    button {
+                        background-color: $OrangePrimaryColor;
+                    }
+                }
+            }
+        }
+    }
+}

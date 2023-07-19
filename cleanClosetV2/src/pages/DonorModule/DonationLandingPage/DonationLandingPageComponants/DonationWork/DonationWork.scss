@@ -1,0 +1,227 @@
+.work {
+    margin-top: 25px;
+    width: 65%;
+  
+    .work {
+      width: 100%;
+      height: 20%;
+      text-align: center;
+  
+      h1 {
+        color: #54595f;
+        font-family: "Comfortaa", Sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 0.1em;
+        padding: 16px;
+      }
+    }
+  
+    .title {
+      font-family: "Comfortaa", Sans-serif;
+      margin-top: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-bottom: 40px;
+    }
+  
+    .title hr {
+      width: 70%;
+      margin: 0 auto;
+    }
+  
+    .section1 {
+      display: flex;
+      align-items: center;
+      // background-color: rebeccapurple;
+      justify-content: space-between;
+  
+      // flex-wrap: wrap;
+      margin: 30px 0px;
+  
+      .section1Inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        // flex-direction: column;
+        // background-color: rebeccapurple;
+  
+        .arrow {
+          display: flex;
+          align-items: center;
+          margin-top: 10px;
+          width: 300px;
+          margin: auto;
+          // background-color: rebeccapurple;
+          justify-content: center;
+  
+        }
+      }
+  
+    }
+  
+    .section2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    // .section1Inner {
+    //   display: flex;
+    //   align-items: center;
+    //   justify-content: center;
+    //   flex-wrap: wrap;
+    //   // background-color: rebeccapurple;
+  
+    //   .arrow {
+    //     display: flex;
+    //     align-items: center;
+    //     width: 50%;
+    //     margin: auto;
+    //     // background-color: rebeccapurple;
+    //     justify-content: center;
+  
+    //   }
+    // }
+  
+    .section1 .img img {
+      max-width: 400px;
+      height: 250px;
+      display: block;
+    }
+  
+  
+    .section1 {
+      .count {
+        color: #5271FF;
+        font-family: "Poppins", Sans-serif;
+        font-size: 100px;
+        font-weight: 600;
+        margin-left: 10px;
+      }
+  
+      .content {
+        padding-left: 20px;
+  
+        h3 {
+          color: #E73147;
+          font-family: "Poppins", Sans-serif;
+          font-size: 2em;
+          font-weight: 600;
+        }
+  
+        p {
+          font-family: "Poppins", Sans-serif;
+          font-size: 17px;
+          line-height: 1;
+          color: #888;
+          font-weight: 500;
+        }
+  
+        hr {
+          width: 100%;
+          margin-top: 10px;
+        }
+  
+        .fas {
+          font-size: 34px;
+          color: #7861c3;
+          // margin-top: 10px;
+        }
+  
+      }
+    }
+  
+    .startButton {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      .button-22 {
+        align-items: center;
+        background-color: #0276FF;
+        border-radius: 8px;
+        border-style: none;
+        box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-shrink: 0;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+        padding: 10px 21px;
+        text-align: center;
+        text-transform: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+      }
+  
+      .button-22:active {
+        background-color: #006AE8;
+      }
+  
+      .button-22:hover {
+        background-color: #1C84FF;
+      }
+    }
+  
+    #section2 {
+      .count {
+        color: #E73147;
+      }
+  
+      .content {
+        h3 {
+  
+          color: #5271FF;
+        }
+      }
+    }
+  
+  
+  
+  
+  }
+  
+  @media screen and (max-width:930px) {
+    .work {
+      width: 95%;
+    }
+  
+  }
+  
+  @media screen and(max-width:870px) {
+    .work {
+      width: 95%;
+      // background-color: rebeccapurple;
+    }
+  
+    .section1Inner {
+      flex-direction: column;
+      margin-bottom: 60px;
+    }
+  
+    // #section2 {
+    //   flex-direction: column-reverse;
+    // }
+  }
+  
+  @media screen and (max-width:550px) {
+  
+    .section1 {
+      flex-direction: column;
+    }
+  
+    #section2 {
+      flex-direction: column-reverse;
+    }
+  
+  }

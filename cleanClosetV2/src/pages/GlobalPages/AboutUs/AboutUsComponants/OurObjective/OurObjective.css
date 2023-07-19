@@ -1,0 +1,61 @@
+.OurObjectiveMainContainer .OurObjectivecontainer {
+  padding: 10vh 0;
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+}
+.OurObjectiveMainContainer .OurObjectivecontainer h6 {
+  color: #FF7468;
+}
+.OurObjectiveMainContainer .OurObjectivecontainer h1 {
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+  font-size: 64px;
+  color: #246359;
+}
+.OurObjectiveMainContainer .OurObjectivecontainer .OurObjectiveCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4em;
+}
+.OurObjectiveMainContainer .OurObjectivecontainer .OurObjectiveCardContainer .OurObjectiveCardBody {
+  min-width: 390px !important;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  min-height: 250px;
+  max-height: 250px;
+  margin: 50px 10px;
+}
+.OurObjectiveMainContainer .OurObjectivecontainer .OurObjectiveCardContainer .OurObjectiveCardBody #donateatyour {
+  margin: 40px 0 0 0;
+}
+.OurObjectiveMainContainer .OurObjectivecontainer .OurObjectiveCardContainer .OurObjectiveCardBody .OurObjectiveCardicon {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-top: -50px;
+  background-color: #FFF0EF;
+  display: grid;
+  place-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.OurObjectiveMainContainer .OurObjectivecontainer .OurObjectiveCardContainer .OurObjectiveCardBody .OurObjectiveCardicon i {
+  font-size: 34px;
+  color: #FF7468;
+}
+.OurObjectiveMainContainer .OurObjectivecontainer .OurObjectiveCardContainer .OurObjectiveCardBody .OurObjectiveCardHeading {
+  margin: 20px 0;
+}
+.OurObjectiveMainContainer .OurObjectivecontainer .OurObjectiveCardContainer .OurObjectiveCardBody .OurObjectiveCardPara {
+  width: 70%;
+}
+.OurObjectiveMainContainer .OurObjectivecontainer .OurObjectiveCardContainer .OurObjectiveCardBody .OurObjectiveCardButton {
+  margin: 20px 0 -20px 0;
+}
+.OurObjectiveMainContainer .OurObjectivecontainer .OurObjectiveCardContainer .OurObjectiveCardBody .OurObjectiveCardButton button {
+  background-color: #FC4E57 !important;
+}/*# sourceMappingURL=OurObjective.css.map */

@@ -1,0 +1,217 @@
+@import "../../GlobalCss/GlobalCss.scss";
+
+.ContactUsMainContainer {
+    font-family: $ComfertaFont;
+    margin: 6em 1em 6em 0;
+    .ContactUSContainer {
+        display: flex;
+        flex-direction: row;
+        min-height: 88vh;
+
+        .ContactUsLeftSideContainer {
+            min-height: 80vh;
+            width: 40%;
+            padding: 3em 0 0 3em;
+            position: relative;
+
+            .ContactUsLeftSideContainerBody {
+                display: flex;
+                flex-direction: row;
+                margin: 0 0 4rem 0;
+
+                .ContactUsLeftSideIcon {
+                    img {
+                       
+                        background-color: $greenLigntBackgroundColr;
+                        border-radius: 10px;
+                        padding: 10px;
+                        height: 50px;
+                        width: 50px;
+                    }
+                }
+
+                .ContactUsLeftSideContents {
+                    padding: 0 0 0 10px;
+
+                    h5 {
+                        font-weight: 700;
+                    }
+
+                    p {
+                        line-height: 0.8;
+                    }
+
+                    h6 {
+                        font-weight: 900;
+                        // line-height: ;
+                    }
+                }
+            }
+
+            .ContactUsLeftSideContainerSocialIcon {
+                position: absolute;
+                bottom: 0%;
+                display: flex;
+                flex-direction: row;
+                gap: 1em;
+                margin-bottom: 20px;
+
+                img {
+                    background-color: $greenLigntBackgroundColr;
+                    border-radius: 10px;
+                    padding: 10px;
+                    height: 50px;
+                    width: 50px;
+                }
+            }
+        }
+
+        .ContactUsFormSideContainer {
+            width: 60%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 20px;
+            padding: 5em;
+            background-color: $orangeLigntBackground;
+
+            .ContactUsFormSideContainerHeading {
+                margin: 0 0 2em 0;
+
+                h1 {
+                    font-family: 900;
+                }
+
+                p {
+                    text-align: center;
+                }
+            }
+
+            .ContactUsFormSideContainerForm {
+                width: 70%;
+
+                .ContactUsFormSideContainerFormInputF {
+                    margin: 2em 0;
+
+                    input {
+                        padding: 10px;
+                        width: 100%;
+                        background-color: transparent;
+                        border-right: none;
+                        border-top: none;
+                        border-left: none;
+                        border-bottom: 1px solid black;
+                        outline: none;
+
+                        &::placeholder {
+                            font-weight: 700;
+                            color: black;
+                        }
+                    }
+
+                    textarea {
+                        width: 100%;
+                        border-right: none;
+                        border-top: none;
+                        background-color: transparent;
+                        border-left: none;
+                        outline: none;
+                        border-bottom: 1px solid black;
+                    }
+
+                    label {
+                        font-weight: 700;
+
+                    }
+                }
+
+                .ContactUsFormSideContainerFormRadioButton {
+                    p {
+                        font-weight: 700;
+                    }
+
+                    input[type=radio] {
+                        display: none;
+
+                    }
+
+                    input:checked+label {
+                        border: solid 1px #000;
+                        color: #F00;
+                    }
+
+                    label {
+                        margin: 0 1em;
+                        border-radius: 10px;
+                        border: 1px solid black;
+                        padding: 10px;
+
+                        // width: 40%;
+                        &:hover {
+                            cursor: pointer;
+                            background-color: bisque;
+                        }
+
+                        &:checked {
+                            background-color: #000;
+                        }
+                    }
+                }
+
+                .ContactUsSUbmitButton {
+                    margin: 5em 0 0 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:900px) {
+    .ContactUsMainContainer {
+        .ContactUSContainer {
+            display: flex;
+            flex-direction: column;
+
+            .ContactUsLeftSideContainer {
+                width: 100%;
+
+                .ContactUsLeftSideContainerBody {
+                    .ContactUsLeftSideIcon {
+                        img {
+                            border: 1px solid black;
+                            border-radius: 10px;
+                            padding: 10px;
+                            height: 50px;
+                            width: 50px;
+                        }
+                    }
+
+                    .ContactUsLeftSideContents {
+                        padding: 0 0 0 10px;
+
+                        h5 {
+                            font-weight: 700;
+                        }
+
+                        p {
+                            line-height: 0.8;
+                        }
+
+                        h6 {
+                            font-weight: 900;
+                            // line-height: ;
+                        }
+                    }
+                }
+            }
+
+            .ContactUsFormSideContainer {
+                width: 100%;
+
+                .ContactUsFormSideContainerForm {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

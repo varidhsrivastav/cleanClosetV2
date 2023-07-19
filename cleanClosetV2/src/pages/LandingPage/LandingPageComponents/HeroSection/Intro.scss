@@ -1,0 +1,191 @@
+@import '../../../../GlobalCss/GlobalCss.scss';
+
+.introMainComponets {
+    // background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+//     background-color: #FBAB7E;
+// background-image: linear-gradient(307deg, #FBAB7E 0%, #de6e56 100%);
+
+    // background-color: #e1a69271;
+    // background-color: #FBD679;
+    // background-color: #FCD24C;
+    // background-color: #FEEA94;
+    
+    .IntroComponents {
+        height: 100vh;
+        margin: 0 10vw;
+        display: flex;
+        align-items: center;
+        position: relative;
+       
+        
+
+        .IntroContentSide {
+            
+            font-family: $ComfertaFont;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            // padding: 0 0 0 5rem;
+            // margin: 0 0 0 1em;
+
+            h1 {
+                font-family: $FredokaFont;
+                width: 100%;
+                font-size: 3vw;
+                color: #246359;
+            }
+
+            p {
+                font-size: 1vw;
+                margin: 1em 0;
+                width: 70%;
+                color: #90BA93;
+            }
+
+            .IntroButtons {
+                display: flex;
+                gap: 3em;
+
+                .DonateButtons {
+                    display: flex;
+                }
+
+                .DiscoverButton {
+                    align-self: center;
+
+                    a {
+                        text-decoration: none;
+                        color: #28282d;
+
+                    }
+                }
+            }
+            // .LandingpageIntroStats{
+            //    .LandingpageIntroStatsContent{
+            //     .LandingpageIntroStatsCBody{
+            //         border: 1px solid black;
+            //         background-color: #22a7f0;
+            //     }
+            //    } 
+            // }
+        }
+        .IntroImageSide {
+            // width: 100%;
+            display: flex;
+            .IntroMapImage {
+                width: 35vw;
+                margin-right: 3em;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1200px){
+    .introMainComponets {
+        .IntroComponents {
+            height: 100vh;
+            margin: 0 10vw;
+            display: flex;
+            align-items: center;
+            position: relative;
+            .IntroContentSide {
+
+    
+                h1 {
+                    font-family: $FredokaFont;
+                    width: 100%;
+                    font-size: 4vw;
+                }
+                p{
+                    font-size: 2vw;
+                }
+            }
+        }}    
+}
+@media (max-width: 1000px) {
+    .IntroComponents {
+        padding:10em 0 2em 0 !important;
+
+        flex-direction: column;
+        .IntroContentSide {
+            width: 100%;
+            display: flex;
+            height: 60vh;
+            margin: 0 0 0 0 !important;
+            padding: 0 !important;
+            text-align: center;
+            justify-content: center;
+            h1 {
+                width: 80% !important;
+                font-size: 4vw !important;
+                align-self: center;
+            }
+            p {
+                align-self: center;
+                font-size: 2vw !important;
+            }
+            .IntroButtons {
+                align-self: center;
+                margin-top: 30px;
+            }
+        }
+    }
+}
+@media (max-width: 580px) {
+    .IntroComponents {
+        height: 100vh !important;
+        padding: 5vw 0 0 0 !important;
+        .IntroContentSide {
+            width: 100%;
+            height: 20vh !important;
+            margin: 200px 0 0 0 !important;
+            padding: 0 !important;
+            text-align: center;
+            h1 {
+                font-size: 7vw !important;
+                align-self: center;
+            }
+            p {
+                font-size: 3vw !important;
+                align-self: center;
+            }
+            .IntroButtons {
+                align-self: center;
+                margin-top: 30px;
+            }
+        }
+        .IntroImageSide {
+            // width: 100%;
+            // margin: 7em 0 0 0;
+            margin: 0 ;
+            display: flex;
+            
+            .IntroMapImage {
+                position: absolute;
+                top: 5%;
+                left: 10%;
+                width: 100% !important;
+                margin-right: 3em;
+                z-index: -1;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+.orange{
+    color: #de6e56;
+}
+.blue{
+    color: #22a7f0;
+}
+.button-86 {
+    @import "../../../../GlobalCss/GlobalCss.scss";
+}

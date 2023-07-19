@@ -1,0 +1,45 @@
+.DonationStatsMainComponants {
+    margin: 3em 0 ;
+    .DonationStasComponants {
+        .DonationStatsComponatsContents {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3em;
+            place-content: center;
+            .DonationStatsCardBody {
+                display: flex;
+                align-items: center;
+                border: 1px solid black;
+                border-radius: 10px;
+                padding: 2em 4em 2em 2em;
+
+                .DonationStatscardIcon {
+                    width: 40px;
+                    margin: 0 1em 0 0.5em;
+                    .lotieIcon {
+                        width: 10%;
+                    }
+                }
+
+                .DonationStatscardHead {
+
+                    // border: 1px solid black;
+                    h6 {
+                        line-height: 1em;
+                    }
+
+                    h2 {
+                        line-height: 0.7rem;
+                    }
+                }
+
+                .DonationStatscardStats {
+                    h2 {
+                        line-height: 0.1rem;
+                        // border: 1px solid black;
+                    }
+                }
+            }
+        }
+    }
+}

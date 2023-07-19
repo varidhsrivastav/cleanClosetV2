@@ -1,0 +1,158 @@
+.FooterMainContainer {
+  font-family: "Comfortaa", cursive;
+  position: relative;
+}
+.FooterMainContainer .FooterComponants .FooterAddNgoSection {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  padding: 3vw 0;
+}
+.FooterMainContainer .FooterComponants .FooterAddNgoSection .AddNgoContent {
+  flex: 2.5;
+  padding: 0 10vw;
+}
+.FooterMainContainer .FooterComponants .FooterAddNgoSection .AddNgoButton {
+  display: grid;
+  place-content: center;
+  flex: 1;
+}
+.FooterMainContainer .FooterComponants .FooterContactSections {
+  display: flex;
+  flex-direction: row;
+  gap: 4em;
+  margin: 2em 0;
+}
+.FooterMainContainer .FooterComponants .FooterContactSections .FooterCall {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+.FooterMainContainer .FooterComponants .FooterContactSections .FooterCall img {
+  margin: 0 1em 0 0;
+  width: 50px;
+  height: 50px;
+}
+.FooterMainContainer .FooterComponants .FooterContactSections .FooterEmail {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+.FooterMainContainer .FooterComponants .FooterContactSections .FooterEmail img {
+  margin: 0 1em 0 0;
+  width: 50px;
+  height: 50px;
+}
+.FooterMainContainer .FooterComponants .FooterMainSectionComponants .FooterMainSectionNavigation {
+  margin: 2em 0 0 0;
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+.FooterMainContainer .FooterComponants .FooterMainSectionComponants .FooterMainSectionNavigation .FooterMainSectionNavigationLogo {
+  display: flex;
+  padding: 0 1em 0 0;
+}
+.FooterMainContainer .FooterComponants .FooterMainSectionComponants .FooterMainSectionNavigation .FooterMainSectionNavigationLogo img {
+  width: 200px;
+}
+.FooterMainContainer .FooterComponants .FooterMainSectionComponants .FooterMainSectionNavigation .FooterMainSectionNavigationSections {
+  display: flex;
+  flex-direction: row;
+  gap: 4em;
+  margin: 0 0 0 3rem;
+}
+.FooterMainContainer .FooterComponants .FooterMainSectionComponants .FooterMainSectionNavigation .FooterMainSectionNavigationSections h6 {
+  margin: 0;
+  font-weight: 800;
+}
+.FooterMainContainer .FooterComponants .FooterMainSectionComponants .FooterMainSectionNavigation .FooterMainSectionNavigationBotton {
+  margin-left: auto;
+  margin-right: 0;
+}
+.FooterMainContainer .FooterComponants .FooterMainSectionComponants .CleanClosetSummeryFooter {
+  text-align: left;
+  padding: 3em 0;
+}
+.FooterMainContainer .FooterComponants .FooterMainSectionComponants .CleanClosetCopyrightFooter {
+  padding: 0 0 4em 0;
+  display: flex;
+  flex-direction: row;
+}
+.FooterMainContainer .FooterComponants .FooterMainSectionComponants .CleanClosetCopyrightFooter .PolicyLinksandcookies {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: 0;
+  gap: 2rem;
+}
+
+@media (max-width: 900px) {
+  .FooterMainContainer .FooterComponants .FooterAddNgoSection {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    padding: 3vw 0;
+  }
+  .FooterMainContainer .FooterComponants .FooterAddNgoSection .AddNgoContent {
+    flex: 2.5;
+    padding: 0 10vw;
+  }
+  .FooterMainContainer .FooterComponants .FooterAddNgoSection .AddNgoButton {
+    display: grid;
+    place-content: center;
+    flex: 1;
+  }
+  .FooterMainContainer .FooterComponants .FooterContactSections {
+    display: flex;
+    flex-direction: column;
+  }
+  .FooterMainContainer .FooterComponants .FooterContactSections .FooterCall {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    gap: 1em;
+  }
+  .FooterMainContainer .FooterComponants .FooterContactSections .FooterCall img {
+    width: 50px;
+    height: 50px;
+  }
+  .FooterMainContainer .FooterComponants .FooterContactSections .FooterEmail {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    gap: 1em;
+  }
+  .FooterMainContainer .FooterComponants .FooterContactSections .FooterEmail img {
+    width: 50px;
+    height: 50px;
+  }
+  .FooterMainContainer .FooterComponants .FooterMainSectionComponants .FooterMainSectionNavigation {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+  }
+  .FooterMainContainer .FooterComponants .FooterMainSectionComponants .FooterMainSectionNavigation .FooterMainSectionNavigationSections {
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+  }
+  .FooterMainContainer .FooterComponants .FooterMainSectionComponants .FooterMainSectionNavigation .FooterMainSectionNavigationBotton {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.footerImageDown img {
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}/*# sourceMappingURL=Footer.css.map */

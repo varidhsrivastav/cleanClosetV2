@@ -1,0 +1,32 @@
+.DonationStatsMainComponants {
+  margin: 3em 0;
+}
+.DonationStatsMainComponants .DonationStasComponants .DonationStatsComponatsContents {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3em;
+  place-content: center;
+}
+.DonationStatsMainComponants .DonationStasComponants .DonationStatsComponatsContents .DonationStatsCardBody {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2em 4em 2em 2em;
+}
+.DonationStatsMainComponants .DonationStasComponants .DonationStatsComponatsContents .DonationStatsCardBody .DonationStatscardIcon {
+  width: 40px;
+  margin: 0 1em 0 0.5em;
+}
+.DonationStatsMainComponants .DonationStasComponants .DonationStatsComponatsContents .DonationStatsCardBody .DonationStatscardIcon .lotieIcon {
+  width: 10%;
+}
+.DonationStatsMainComponants .DonationStasComponants .DonationStatsComponatsContents .DonationStatsCardBody .DonationStatscardHead h6 {
+  line-height: 1em;
+}
+.DonationStatsMainComponants .DonationStasComponants .DonationStatsComponatsContents .DonationStatsCardBody .DonationStatscardHead h2 {
+  line-height: 0.7rem;
+}
+.DonationStatsMainComponants .DonationStasComponants .DonationStatsComponatsContents .DonationStatsCardBody .DonationStatscardStats h2 {
+  line-height: 0.1rem;
+}/*# sourceMappingURL=DonationStats.css.map */

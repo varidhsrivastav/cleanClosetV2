@@ -1,0 +1,55 @@
+@import "../../../../GlobalCss/GlobalCss.scss";
+
+.FooterNgoCardMainSection {
+    // background-color: #e1e1e1;
+    font-family: $ComfertaFont;
+
+    .FooterAddNgoSection {
+        padding: 5em 0;
+
+        .FooterAddNgoSectioncontainer {
+            display: flex;
+            flex-direction: column;
+            gap: 2em;
+            background-color: $greenDarkBackgroundColor;
+            border-radius: 10px;
+            min-height: 40vh;
+            padding: 2em;
+            justify-content: flex-end;
+            .AddNgoContent {
+                transition: transform 600ms;
+                &:hover {
+                    cursor: pointer;
+                    transform: translateY(-100px);
+                    .AddNgoButton{
+                        margin: 2em 0 0 0;
+                        display: flex;
+                    }
+                    
+                }
+                h1 {
+                    font-weight: 900;
+                    font-size: 58px;
+                    color: #fff;
+                }
+
+                .AddNgoButton {
+                    text-align: center;
+                    display: none;
+
+                    button {
+
+                        margin: 0 2em 0 0;
+                        background-color: $greenLigntBackgroundColr;
+                        color: $GreenPrimaryColor;
+                    }
+
+                    // display: flex;
+                    // display: none;
+                    // display: flex;
+                    // gap: 3em;
+                }
+            }
+        }
+    }
+}

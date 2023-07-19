@@ -1,0 +1,57 @@
+.DonationProgramMainContainer {
+  padding: 7rem 0;
+  background-color: #E9F5F3;
+  font-family: "Comfortaa", cursive;
+}
+.DonationProgramMainContainer .DonationProgramContainer h6 {
+  color: #e14b31;
+}
+.DonationProgramMainContainer .DonationProgramContainer h1 {
+  font-weight: 900;
+}
+.DonationProgramMainContainer .DonationProgramContainer .DonationProgramCardContainer {
+  display: flex;
+  margin: 4em 0 0 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
+.DonationProgramMainContainer .DonationProgramContainer .DonationProgramCardContainer .DonationProgramCardBody {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  max-width: 390px;
+  max-height: 700px;
+}
+.DonationProgramMainContainer .DonationProgramContainer .DonationProgramCardContainer .DonationProgramCardBody .DonationProgramCardImage {
+  border-radius: 10px;
+  max-height: 260px;
+  overflow: hidden;
+  max-width: 400px;
+}
+.DonationProgramMainContainer .DonationProgramContainer .DonationProgramCardContainer .DonationProgramCardBody .DonationProgramCardImage img {
+  overflow: hidden;
+  min-height: 200px;
+  min-width: 400px;
+}
+.DonationProgramMainContainer .DonationProgramContainer .DonationProgramCardContainer .DonationProgramCardBody .DonationProgramCardContent {
+  padding: 1rem 0;
+}
+.DonationProgramMainContainer .DonationProgramContainer .DonationProgramCardContainer .DonationProgramCardBody .DonationProgramCardContent h6 {
+  color: #246359 !important;
+}
+.DonationProgramMainContainer .DonationProgramContainer .DonationProgramCardContainer .DonationProgramCardBody .DonationProgramCardContent h4 {
+  font-weight: 700;
+}
+.DonationProgramMainContainer .DonationProgramContainer .DonationProgramCardContainer .DonationProgramCardBody .DonationProgramCardContent .DonationProgramCardProgressBar .progress {
+  margin: 0 0 10px 0;
+}
+.DonationProgramMainContainer .DonationProgramContainer .DonationProgramCardContainer .DonationProgramCardBody .DonationProgramCardContent .DonationProgramCardProgressBar .progress .progress-bar {
+  background-color: #246359;
+}
+.DonationProgramMainContainer .DonationProgramContainer .DonationProgramCardContainer .DonationProgramCardBody .DonationProgramCardContent .DonateNowButton {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}/*# sourceMappingURL=DonationProgram.css.map */

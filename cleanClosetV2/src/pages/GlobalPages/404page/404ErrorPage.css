@@ -1,0 +1,12 @@
+.ErrorPage {
+  min-width: 100vw !important;
+  height: 46rem;
+  display: flex;
+  place-content: center;
+  place-items: center;
+}
+.ErrorPage img {
+  position: relative;
+  min-width: 46rem;
+  min-height: 46rem;
+}/*# sourceMappingURL=404ErrorPage.css.map */

@@ -1,0 +1,80 @@
+@import "../../../../GlobalCss/GlobalCss.scss";
+.LandingPageStatsMainComponants{
+    // text-align: center;
+    margin: $MainContainerMargin ;
+    padding: 4em 0 ;
+    font-family: $ComfertaFont;
+    .LandingPageStatsContainer{
+        // display: flex;
+        .LStatsContainer{
+            text-align: center;
+            h6{
+                padding: 0 0 1em 0;
+                color: #FF7468;
+                font-weight: 700;
+            }
+            .statsHeading{
+                display: flex;
+                justify-content: center;
+                h1{
+                    width: 70%;
+                    font-weight: 700;
+                    color: #246359;
+                    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+                }
+            }
+        }
+        .LMainStats{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 4em 0;
+            gap: 7em;
+            .LMainStatsBody{
+                h3{
+                    font-weight: 900;
+                    text-shadow: $shadow1px;
+                    font-size: 2vw;
+                }
+                p{
+                    line-height: 0;
+                    font-size: 1vw;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:900px){
+    .LandingPageStatsMainComponants{
+        // text-align: center;
+        margin: $MainContainerMargin ;
+        padding: 4em 0 ;
+        font-family: $ComfertaFont;
+        .LandingPageStatsContainer{
+            .LStatsContainer{
+                h6{
+                    padding: 0 0 0em 0;
+                }
+                .statsHeading{
+                    h1{
+                        width: 100%;
+                    }
+                }
+            }
+            .LMainStats{
+                gap: 5em;
+                .LMainStatsBody{
+                    h3{
+                        font-size: 7vw;
+                    }
+                    p{
+                        font-size: 3vw;
+                    }
+                }
+            }
+        }
+    }
+}

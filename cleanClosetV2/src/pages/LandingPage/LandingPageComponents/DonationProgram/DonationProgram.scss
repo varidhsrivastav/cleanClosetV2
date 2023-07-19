@@ -1,0 +1,76 @@
+@import "../../../../GlobalCss/GlobalCss.scss";
+
+.DonationProgramMainContainer {
+    padding: 7rem 0;
+    // background-color: #e1e1e1e1;
+    background-color: #E9F5F3;
+    font-family: $ComfertaFont;
+
+    .DonationProgramContainer {
+        h6 {
+            color: $headingscolor;
+        }
+
+        h1 {
+            font-weight: 900;
+        }
+
+        .DonationProgramCardContainer {
+            display: flex;
+            margin: 4em 0 0 0;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2em;
+
+            .DonationProgramCardBody {
+                border-radius: 10px;
+                padding: 10px;
+                background-color: #fff;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                max-width: 390px;
+                max-height: 700px;
+
+                .DonationProgramCardImage {
+                    border-radius: 10px;
+                    max-height: 260px;
+                    overflow: hidden;
+                    max-width: 400px;
+
+                    img {
+                        overflow: hidden;
+                        min-height: 200px;
+                        min-width: 400px;
+                    }
+                }
+
+                .DonationProgramCardContent {
+                    padding: 1rem 0;
+                    h6{
+                        color:#246359 !important;
+                    }
+
+                    h4 {
+                        font-weight: 700;
+                    }
+
+                    .DonationProgramCardProgressBar {
+                        .progress {
+                            // background-color: #fff;
+                            margin: 0 0 10px 0;
+
+                            .progress-bar {
+                                background-color: #246359;
+                            }
+                        }
+                    }
+
+                    .DonateNowButton {
+                        display: flex;
+                        width: 100%;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+}

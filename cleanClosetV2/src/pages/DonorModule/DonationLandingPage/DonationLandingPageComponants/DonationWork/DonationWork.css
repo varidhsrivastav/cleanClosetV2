@@ -1,0 +1,156 @@
+.work {
+  margin-top: 25px;
+  width: 65%;
+}
+.work .work {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+}
+.work .work h1 {
+  color: #54595f;
+  font-family: "Comfortaa", Sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 0.1em;
+  padding: 16px;
+}
+.work .title {
+  font-family: "Comfortaa", Sans-serif;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.work .title hr {
+  width: 70%;
+  margin: 0 auto;
+}
+.work .section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+.work .section1 .section1Inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.work .section1 .section1Inner .arrow {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  width: 300px;
+  margin: auto;
+  justify-content: center;
+}
+.work .section2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.work .section1 .img img {
+  max-width: 400px;
+  height: 250px;
+  display: block;
+}
+.work .section1 .count {
+  color: #5271FF;
+  font-family: "Poppins", Sans-serif;
+  font-size: 100px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.work .section1 .content {
+  padding-left: 20px;
+}
+.work .section1 .content h3 {
+  color: #E73147;
+  font-family: "Poppins", Sans-serif;
+  font-size: 2em;
+  font-weight: 600;
+}
+.work .section1 .content p {
+  font-family: "Poppins", Sans-serif;
+  font-size: 17px;
+  line-height: 1;
+  color: #888;
+  font-weight: 500;
+}
+.work .section1 .content hr {
+  width: 100%;
+  margin-top: 10px;
+}
+.work .section1 .content .fas {
+  font-size: 34px;
+  color: #7861c3;
+}
+.work .startButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.work .startButton .button-22 {
+  align-items: center;
+  background-color: #0276FF;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  padding: 10px 21px;
+  text-align: center;
+  text-transform: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.work .startButton .button-22:active {
+  background-color: #006AE8;
+}
+.work .startButton .button-22:hover {
+  background-color: #1C84FF;
+}
+.work #section2 .count {
+  color: #E73147;
+}
+.work #section2 .content h3 {
+  color: #5271FF;
+}
+
+@media screen and (max-width: 930px) {
+  .work {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 870px) {
+  .work {
+    width: 95%;
+  }
+  .section1Inner {
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .section1 {
+    flex-direction: column;
+  }
+  #section2 {
+    flex-direction: column-reverse;
+  }
+}/*# sourceMappingURL=DonationWork.css.map */

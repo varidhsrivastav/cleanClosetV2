@@ -1,0 +1,30 @@
+@import "../../../Globalcss/Globalcss.scss";
+
+.DonationVisionMainContainer{
+    font-family: $ComfertaFont;
+    margin: 4em 0;
+    .DonationVisionContainer{
+        // background-color: #FFBA00;
+        background-color: #FEEA94;
+        border-radius: 10px;
+        padding: 2em ;
+        .DonationVisionContent{
+            margin: 2rem ;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-self: center;
+            align-items: center;
+            
+            h1{
+                width: 80%;
+                color: #B84624;
+                letter-spacing:2px;
+                text-shadow: 0px 2px, 2px 0px, 2px 2px;
+            }
+            .donationVisionContetButton{
+                margin: 2em 0 ;
+            }
+        }
+    }
+}

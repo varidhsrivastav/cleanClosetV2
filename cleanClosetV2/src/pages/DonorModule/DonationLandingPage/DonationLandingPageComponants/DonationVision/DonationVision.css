@@ -1,0 +1,26 @@
+.DonationVisionMainContainer {
+  font-family: "Comfortaa", cursive;
+  margin: 4em 0;
+}
+.DonationVisionMainContainer .DonationVisionContainer {
+  background-color: #FEEA94;
+  border-radius: 10px;
+  padding: 2em;
+}
+.DonationVisionMainContainer .DonationVisionContainer .DonationVisionContent {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-self: center;
+  align-items: center;
+}
+.DonationVisionMainContainer .DonationVisionContainer .DonationVisionContent h1 {
+  width: 80%;
+  color: #B84624;
+  letter-spacing: 2px;
+  text-shadow: 0px 2px, 2px 0px, 2px 2px;
+}
+.DonationVisionMainContainer .DonationVisionContainer .DonationVisionContent .donationVisionContetButton {
+  margin: 2em 0;
+}/*# sourceMappingURL=DonationVision.css.map */

@@ -1,0 +1,7 @@
+.DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm .DBDFinputFieldAddress .DBDFinputFieldsAlineStates {
+  display: flex;
+  gap: 2em;
+}
+.DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm .DBDFinputFieldAddress .DBDFinputFieldsAlineStates .DBDFinputFields {
+  width: 50%;
+}/*# sourceMappingURL=Stage4.css.map */

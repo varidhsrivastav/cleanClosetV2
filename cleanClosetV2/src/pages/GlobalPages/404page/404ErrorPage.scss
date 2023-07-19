@@ -1,0 +1,15 @@
+.ErrorPage{
+    min-width: 100vw !important;
+    height: 46rem;
+        // min-height: 50vh !important;
+        display: flex;
+        place-content: center;
+        place-items: center;
+        // overflow: hidden;
+        img{
+            position: relative;
+        // top: -30rem;
+        min-width: 46rem ;
+        min-height: 46rem;
+    }
+}

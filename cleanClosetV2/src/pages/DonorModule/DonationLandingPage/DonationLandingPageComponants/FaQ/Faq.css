@@ -1,0 +1,87 @@
+.FaqMainContainer {
+  margin: 5em 0;
+}
+
+.accordiancontainer {
+  font-family: "Comfortaa", cursive;
+  margin-left: 10px;
+  margin-right: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.accordiancontainer .accordianheading {
+  width: 100%;
+  font-size: 64px;
+  text-align: center;
+  padding: 5px;
+  margin: 3rem 0 2rem 0;
+  color: #246359 !important;
+}
+.accordiancontainer .accordian {
+  margin-top: 0px;
+}
+.accordiancontainer .accordian .question {
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 15px 20px;
+  display: flex;
+  cursor: pointer;
+  color: #333333;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 1.8em;
+  text-align: left;
+}
+.accordiancontainer .accordian .question .questiontriagnleicon {
+  margin-right: 7px;
+  font-size: 15px;
+  margin-top: 10px;
+  height: auto;
+}
+.accordiancontainer .accordian .FaqQuestions {
+  display: flex;
+  gap: 2em;
+}
+.accordiancontainer .accordian .FaqQuestions h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.accordiancontainer .accordian .FaqQuestions .FAQnumber h1 {
+  color: #246359;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-shadow: 0px 2px, 2px 0px, 2px 2px;
+}
+.accordiancontainer .accordian .question.active {
+  color: #246359;
+  background-color: #E9F5F3;
+}
+.accordiancontainer .accordian .answer {
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 70px;
+  color: #333333;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  margin-top: -1px;
+  font-weight: 400;
+  line-height: 1.8em;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+.accordiancontainer .accordian .answer p {
+  margin: 10px;
+  margin-bottom: 21px;
+}
+.accordiancontainer .accordian .answer.show {
+  background-color: #E9F5F3;
+  max-height: 46rem;
+  height: auto;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}/*# sourceMappingURL=Faq.css.map */

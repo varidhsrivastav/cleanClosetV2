@@ -1,0 +1,47 @@
+.ParterMainContainer {
+  padding: 5em 0 5em 0;
+  position: relative;
+}
+.ParterMainContainer .ParterMainContainerImg {
+  position: absolute;
+  display: none;
+  width: 100%;
+}
+.ParterMainContainer .ParterMainContainerImg img {
+  width: 100%;
+  height: 200px;
+}
+.ParterMainContainer h6 {
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+}
+.ParterMainContainer .PartnerContainer .CompaniesLogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.ParterMainContainer .PartnerContainer .CompaniesLogo .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ParterMainContainer .PartnerContainer .CompaniesLogo .logo img {
+  justify-self: center;
+  align-items: center;
+  max-width: 100px;
+  max-height: 100px;
+  filter: grayscale(1);
+}
+.ParterMainContainer .PartnerContainer .CompaniesLogo .logo img:hover {
+  filter: grayscale(0);
+}
+.ParterMainContainer .PartnerContainer .CompaniesLogo:hover {
+  cursor: pointer;
+}
+
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=Partner.css.map */

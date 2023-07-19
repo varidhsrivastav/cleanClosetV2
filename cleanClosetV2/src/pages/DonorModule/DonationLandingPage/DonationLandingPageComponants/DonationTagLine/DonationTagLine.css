@@ -1,0 +1,48 @@
+.DonationTagLineMainContainer {
+  padding: 10rem 0;
+  font-family: "Comfortaa", cursive;
+  background-color: #FEEA94;
+}
+.DonationTagLineMainContainer .DonationTagLineContainer .DonationTagLineContainerHeading {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+}
+.DonationTagLineMainContainer .DonationTagLineContainer .DonationTagLineContainerHeading h1 {
+  font-weight: 900;
+  font-size: 100px;
+  color: #246359;
+  letter-spacing: 2px;
+  text-shadow: 0px 2px, 2px 0px, 2px 2px;
+}
+.DonationTagLineMainContainer .DonationTagLineContainer .DonationTagLineContainerPara {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.DonationTagLineMainContainer .DonationTagLineContainer .DonationTagLineContainerPara p {
+  font-size: 24px;
+}
+
+@media (max-width: 900px) {
+  .DonationTagLineMainContainer {
+    padding: 8rem 0;
+  }
+  .DonationTagLineMainContainer .DonationTagLineContainer .DonationTagLineContainerHeading {
+    flex-direction: column;
+    gap: 0em;
+  }
+  .DonationTagLineMainContainer .DonationTagLineContainer .DonationTagLineContainerHeading h1 {
+    font-size: 74px;
+    color: #246359;
+  }
+  .DonationTagLineMainContainer .DonationTagLineContainer .DonationTagLineContainerPara {
+    margin: 2em 0 0 0;
+  }
+  .DonationTagLineMainContainer .DonationTagLineContainer .DonationTagLineContainerPara p {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=DonationTagLine.css.map */

@@ -1,0 +1,97 @@
+.DoationBasicDetailFormRSideBody h1 {
+  text-align: center;
+}
+.DoationBasicDetailFormRSideBody .DonateTypeContainer .DonateTypeContainerT1 {
+  margin: 3em 0;
+}
+.DoationBasicDetailFormRSideBody .DonateTypeContainer .DonateTypeContainerT1 h3 {
+  text-align: center;
+}
+.DoationBasicDetailFormRSideBody .DonateTypeContainer .DonateTypeContainerT1 .DonateTypeContainerT1Radio {
+  display: flex;
+  flex-direction: column;
+  margin: 2em 0;
+}
+.DoationBasicDetailFormRSideBody .DonateTypeContainer .DonateTypeContainerT1 .DonateTypeContainerT1Radio label {
+  font-weight: 400;
+  text-shadow: 0px 0px, 0px 0px, 0px 0px;
+  padding-bottom: 0.5em;
+  font-size: 17px;
+}
+.DoationBasicDetailFormRSideBody .DonateTypeContainer .DonateTypeContainerT1 .DonateTypeContainerT1Radio .DonateTypeContainerT1RadioLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.DoationBasicDetailFormRSideBody .DonateTypeContainer .DonateTypeContainerT1 .DonateTypeContainerT1Radio .DonateTypeContainerT1RadioLabel .DonateTypeContainerT1RadioIcon {
+  margin: 0 2em 0 0;
+}
+.DoationBasicDetailFormRSideBody .DonateTypeContainer .DonateTypeContainerT1 .DonateTypeContainerT1Radio .DonateTypeContainerT1RadioLabel .DonateTypeContainerT1RadioIcon img {
+  width: 50px;
+  height: 50px;
+}
+.DoationBasicDetailFormRSideBody .DonateTypeContainer .DonateTypeContainerT1 .DonateTypeContainerT1Radio input[type=radio] {
+  display: none;
+}
+.DoationBasicDetailFormRSideBody .DonateTypeContainer .DonateTypeContainerT1 .DonateTypeContainerT1Radio input:checked + label {
+  border: solid 1px #000;
+  color: #F00;
+}
+.DoationBasicDetailFormRSideBody .DonateTypeContainer .DonateTypeContainerT1 .DonateTypeContainerT1Radio label {
+  border: 1px solid black;
+  padding: 10px 64px;
+  border-radius: 10px;
+  margin: 0 0em 1em 0;
+}
+.DoationBasicDetailFormRSideBody .DonateTypeContainer .DonateTypeContainerT1 .DonateTypeContainerT1Radio label:hover {
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+.DoationBasicDetailFormRSideBody .DonateTypeContainer .DonateTypeContainerT2 label {
+  font-weight: 400;
+  text-shadow: 0px 0px, 0px 0px, 0px 0px;
+  padding-bottom: 0.5em;
+  font-size: 17px;
+}
+.DoationBasicDetailFormRSideBody .DonateTypeContainer .DonateTypeContainerT2 h3 {
+  text-align: center;
+}
+.DoationBasicDetailFormRSideBody .DonateTypeContainer .DonateTypeContainerT2 .DonateTypeContainerT2Radio {
+  display: flex;
+  flex-direction: column;
+  margin: 2em 0;
+}
+.DoationBasicDetailFormRSideBody .DonateTypeContainer .DonateTypeContainerT2 .DonateTypeContainerT2Radio .DonateTypeContainerT2RadioLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.DoationBasicDetailFormRSideBody .DonateTypeContainer .DonateTypeContainerT2 .DonateTypeContainerT2Radio .DonateTypeContainerT2RadioLabel .DonateTypeContainerT2RadioIcon {
+  margin: 0 2em 0 0;
+}
+.DoationBasicDetailFormRSideBody .DonateTypeContainer .DonateTypeContainerT2 .DonateTypeContainerT2Radio .DonateTypeContainerT2RadioLabel .DonateTypeContainerT2RadioIcon img {
+  width: 50px;
+  height: 50px;
+}
+.DoationBasicDetailFormRSideBody .DonateTypeContainer .DonateTypeContainerT2 .DonateTypeContainerT2Radio input[type=radio] {
+  display: none;
+}
+.DoationBasicDetailFormRSideBody .DonateTypeContainer .DonateTypeContainerT2 .DonateTypeContainerT2Radio input:checked + label {
+  border: solid 1px #000;
+  color: #F00;
+}
+.DoationBasicDetailFormRSideBody .DonateTypeContainer .DonateTypeContainerT2 .DonateTypeContainerT2Radio label {
+  border: 1px solid black;
+  padding: 10px 64px;
+  border-radius: 10px;
+  margin: 0 0em 1em 0;
+}
+.DoationBasicDetailFormRSideBody .DonateTypeContainer .DonateTypeContainerT2 .DonateTypeContainerT2Radio label:hover {
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+.DoationBasicDetailFormRSideBody .DonateTypeButons {
+  margin-top: 5em;
+  display: flex;
+  gap: 10em;
+}/*# sourceMappingURL=Stage2.css.map */

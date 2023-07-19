@@ -1,0 +1,117 @@
+.TestimonialsMainContaierHeader {
+  margin: 10em 0;
+  font-family: "Comfortaa", cursive;
+}
+.TestimonialsMainContaierHeader .TestimonialsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.TestimonialsMainContaierHeader .TestimonialsContainer .work {
+  width: 100%;
+  text-align: center;
+  color: #FF7468 !important;
+}
+.TestimonialsMainContaierHeader .TestimonialsContainer .workh1 {
+  color: #246359;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+}
+.TestimonialsMainContaierHeader .TestimonialsContainer h1 {
+  text-align: center;
+  font-size: 48px;
+  width: 90%;
+}
+.TestimonialsMainContaierHeader .TestimonialsContainer p {
+  text-align: center;
+}
+.TestimonialsMainContaierHeader .TestimonialsContainer .TestimonialsContainerCardContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 4em 0 0 0;
+  gap: 1rem;
+}
+.TestimonialsMainContaierHeader .TestimonialsContainer .TestimonialsContainerCardContainer .TestimonialsContainerCardBody {
+  display: flex;
+  padding: 20px;
+  min-height: 250px;
+  max-width: 650px;
+  border-radius: 10px;
+}
+.TestimonialsMainContaierHeader .TestimonialsContainer .TestimonialsContainerCardContainer .TestimonialsContainerCardBody .TestimonialsContainerCardBodyImage {
+  max-height: 250px;
+  max-width: 200px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.TestimonialsMainContaierHeader .TestimonialsContainer .TestimonialsContainerCardContainer .TestimonialsContainerCardBody .TestimonialsContainerCardBodyImage img {
+  max-height: 240px;
+  max-width: 190px;
+}
+.TestimonialsMainContaierHeader .TestimonialsContainer .TestimonialsContainerCardContainer .TestimonialsContainerCardBody .TestimonialsContainerCardBodyContent {
+  padding: 0px 0 0 20px;
+}
+.TestimonialsMainContaierHeader .TestimonialsContainer .TestimonialsContainerCardContainer .TestimonialsContainerCardBody .TestimonialsContainerCardBodyContent .TestimonialsContainerCardBCIcon img {
+  height: 50px;
+  width: 50px;
+}
+.TestimonialsMainContaierHeader .TestimonialsContainer .TestimonialsContainerCardContainer .TestimonialsContainerCardBody .TestimonialsContainerCardBodyContent .TestimonialsContainerCardBCC {
+  width: 100%;
+  min-height: 180px;
+  position: relative;
+}
+.TestimonialsMainContaierHeader .TestimonialsContainer .TestimonialsContainerCardContainer .TestimonialsContainerCardBody .TestimonialsContainerCardBodyContent .TestimonialsContainerCardBCC .TestimonialsContainerCardBCCdesignation {
+  position: absolute;
+  bottom: 0%;
+}
+.TestimonialsMainContaierHeader .TestimonialsContainer .TestimonialsContainerCardContainer .TestimonialsContainerCardBody .TestimonialsContainerCardBodyContent .TestimonialsContainerCardBCC h6 {
+  text-align: left;
+  font-weight: 600;
+}
+.TestimonialsMainContaierHeader .TestimonialsContainer .TestimonialsContainerCardContainer .TestimonialsContainerCardBody .TestimonialsContainerCardBodyContent .TestimonialsContainerCardBCC p {
+  margin: 0;
+  line-height: 0.5;
+  padding: 0;
+}
+
+#cardbody1 {
+  background-color: #E9F5F3;
+}
+
+#cardbody2 {
+  background-color: #FFF0EF;
+  color: #000000;
+}
+
+@media (max-width: 900px) {
+  .TestimonialsMainContaierHeader .TestimonialsContainer .TestimonialsContainerCardContainer {
+    flex-direction: column;
+  }
+  .TestimonialsMainContaierHeader .TestimonialsContainer .TestimonialsContainerCardContainer .TestimonialsContainerCardBody .TestimonialsContainerCardBodyImage {
+    max-height: 200px;
+    max-width: 150px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  .TestimonialsMainContaierHeader .TestimonialsContainer .TestimonialsContainerCardContainer .TestimonialsContainerCardBody .TestimonialsContainerCardBodyImage img {
+    max-height: 190px;
+    max-width: 140px;
+  }
+  .TestimonialsMainContaierHeader .TestimonialsContainer .TestimonialsContainerCardContainer .TestimonialsContainerCardBody .TestimonialsContainerCardBodyContent {
+    padding: 0px 0 0 20px;
+  }
+  .TestimonialsMainContaierHeader .TestimonialsContainer .TestimonialsContainerCardContainer .TestimonialsContainerCardBody .TestimonialsContainerCardBodyContent .TestimonialsContainerCardBCIcon img {
+    height: 50px;
+    width: 50px;
+  }
+  .TestimonialsMainContaierHeader .TestimonialsContainer .TestimonialsContainerCardContainer .TestimonialsContainerCardBody .TestimonialsContainerCardBodyContent .TestimonialsContainerCardBCC {
+    width: 100%;
+    min-height: 180px;
+    position: relative;
+  }
+  .TestimonialsMainContaierHeader .TestimonialsContainer .TestimonialsContainerCardContainer .TestimonialsContainerCardBody .TestimonialsContainerCardBodyContent .TestimonialsContainerCardBCC .TestimonialsContainerCardBCCdesignation {
+    position: absolute;
+    bottom: 0%;
+  }
+}/*# sourceMappingURL=Testimonials.css.map */

@@ -1,0 +1,142 @@
+.introMainComponets .IntroComponents {
+  height: 100vh;
+  margin: 0 10vw;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.introMainComponets .IntroComponents .IntroContentSide {
+  font-family: "Comfortaa", cursive;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.introMainComponets .IntroComponents .IntroContentSide h1 {
+  font-family: "Fredoka One", cursive;
+  width: 100%;
+  font-size: 3vw;
+  color: #246359;
+}
+.introMainComponets .IntroComponents .IntroContentSide p {
+  font-size: 1vw;
+  margin: 1em 0;
+  width: 70%;
+  color: #90BA93;
+}
+.introMainComponets .IntroComponents .IntroContentSide .IntroButtons {
+  display: flex;
+  gap: 3em;
+}
+.introMainComponets .IntroComponents .IntroContentSide .IntroButtons .DonateButtons {
+  display: flex;
+}
+.introMainComponets .IntroComponents .IntroContentSide .IntroButtons .DiscoverButton {
+  align-self: center;
+}
+.introMainComponets .IntroComponents .IntroContentSide .IntroButtons .DiscoverButton a {
+  text-decoration: none;
+  color: #28282d;
+}
+.introMainComponets .IntroComponents .IntroImageSide {
+  display: flex;
+}
+.introMainComponets .IntroComponents .IntroImageSide .IntroMapImage {
+  width: 35vw;
+  margin-right: 3em;
+}
+.introMainComponets .IntroComponents .IntroImageSide .IntroMapImage img {
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .introMainComponets .IntroComponents {
+    height: 100vh;
+    margin: 0 10vw;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .introMainComponets .IntroComponents .IntroContentSide h1 {
+    font-family: "Fredoka One", cursive;
+    width: 100%;
+    font-size: 4vw;
+  }
+  .introMainComponets .IntroComponents .IntroContentSide p {
+    font-size: 2vw;
+  }
+}
+@media (max-width: 1000px) {
+  .IntroComponents {
+    padding: 10em 0 2em 0 !important;
+    flex-direction: column;
+  }
+  .IntroComponents .IntroContentSide {
+    width: 100%;
+    display: flex;
+    height: 60vh;
+    margin: 0 0 0 0 !important;
+    padding: 0 !important;
+    text-align: center;
+    justify-content: center;
+  }
+  .IntroComponents .IntroContentSide h1 {
+    width: 80% !important;
+    font-size: 4vw !important;
+    align-self: center;
+  }
+  .IntroComponents .IntroContentSide p {
+    align-self: center;
+    font-size: 2vw !important;
+  }
+  .IntroComponents .IntroContentSide .IntroButtons {
+    align-self: center;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 580px) {
+  .IntroComponents {
+    height: 100vh !important;
+    padding: 5vw 0 0 0 !important;
+  }
+  .IntroComponents .IntroContentSide {
+    width: 100%;
+    height: 20vh !important;
+    margin: 200px 0 0 0 !important;
+    padding: 0 !important;
+    text-align: center;
+  }
+  .IntroComponents .IntroContentSide h1 {
+    font-size: 7vw !important;
+    align-self: center;
+  }
+  .IntroComponents .IntroContentSide p {
+    font-size: 3vw !important;
+    align-self: center;
+  }
+  .IntroComponents .IntroContentSide .IntroButtons {
+    align-self: center;
+    margin-top: 30px;
+  }
+  .IntroComponents .IntroImageSide {
+    margin: 0;
+    display: flex;
+  }
+  .IntroComponents .IntroImageSide .IntroMapImage {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 100% !important;
+    margin-right: 3em;
+    z-index: -1;
+  }
+  .IntroComponents .IntroImageSide .IntroMapImage img {
+    width: 100%;
+  }
+}
+.orange {
+  color: #de6e56;
+}
+
+.blue {
+  color: #22a7f0;
+}/*# sourceMappingURL=Intro.css.map */

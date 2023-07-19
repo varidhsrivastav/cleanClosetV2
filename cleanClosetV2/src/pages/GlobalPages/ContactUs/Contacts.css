@@ -1,0 +1,169 @@
+.ContactUsMainContainer {
+  font-family: "Comfortaa", cursive;
+  margin: 6em 1em 6em 0;
+}
+.ContactUsMainContainer .ContactUSContainer {
+  display: flex;
+  flex-direction: row;
+  min-height: 88vh;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsLeftSideContainer {
+  min-height: 80vh;
+  width: 40%;
+  padding: 3em 0 0 3em;
+  position: relative;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsLeftSideContainer .ContactUsLeftSideContainerBody {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 4rem 0;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsLeftSideContainer .ContactUsLeftSideContainerBody .ContactUsLeftSideIcon img {
+  background-color: #E9F5F3;
+  border-radius: 10px;
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsLeftSideContainer .ContactUsLeftSideContainerBody .ContactUsLeftSideContents {
+  padding: 0 0 0 10px;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsLeftSideContainer .ContactUsLeftSideContainerBody .ContactUsLeftSideContents h5 {
+  font-weight: 700;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsLeftSideContainer .ContactUsLeftSideContainerBody .ContactUsLeftSideContents p {
+  line-height: 0.8;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsLeftSideContainer .ContactUsLeftSideContainerBody .ContactUsLeftSideContents h6 {
+  font-weight: 900;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsLeftSideContainer .ContactUsLeftSideContainerSocialIcon {
+  position: absolute;
+  bottom: 0%;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  margin-bottom: 20px;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsLeftSideContainer .ContactUsLeftSideContainerSocialIcon img {
+  background-color: #E9F5F3;
+  border-radius: 10px;
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsFormSideContainer {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 5em;
+  background-color: #FFF0EF;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsFormSideContainer .ContactUsFormSideContainerHeading {
+  margin: 0 0 2em 0;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsFormSideContainer .ContactUsFormSideContainerHeading h1 {
+  font-family: 900;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsFormSideContainer .ContactUsFormSideContainerHeading p {
+  text-align: center;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsFormSideContainer .ContactUsFormSideContainerForm {
+  width: 70%;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsFormSideContainer .ContactUsFormSideContainerForm .ContactUsFormSideContainerFormInputF {
+  margin: 2em 0;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsFormSideContainer .ContactUsFormSideContainerForm .ContactUsFormSideContainerFormInputF input {
+  padding: 10px;
+  width: 100%;
+  background-color: transparent;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsFormSideContainer .ContactUsFormSideContainerForm .ContactUsFormSideContainerFormInputF input::-moz-placeholder {
+  font-weight: 700;
+  color: black;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsFormSideContainer .ContactUsFormSideContainerForm .ContactUsFormSideContainerFormInputF input::placeholder {
+  font-weight: 700;
+  color: black;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsFormSideContainer .ContactUsFormSideContainerForm .ContactUsFormSideContainerFormInputF textarea {
+  width: 100%;
+  border-right: none;
+  border-top: none;
+  background-color: transparent;
+  border-left: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsFormSideContainer .ContactUsFormSideContainerForm .ContactUsFormSideContainerFormInputF label {
+  font-weight: 700;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsFormSideContainer .ContactUsFormSideContainerForm .ContactUsFormSideContainerFormRadioButton p {
+  font-weight: 700;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsFormSideContainer .ContactUsFormSideContainerForm .ContactUsFormSideContainerFormRadioButton input[type=radio] {
+  display: none;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsFormSideContainer .ContactUsFormSideContainerForm .ContactUsFormSideContainerFormRadioButton input:checked + label {
+  border: solid 1px #000;
+  color: #F00;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsFormSideContainer .ContactUsFormSideContainerForm .ContactUsFormSideContainerFormRadioButton label {
+  margin: 0 1em;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 10px;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsFormSideContainer .ContactUsFormSideContainerForm .ContactUsFormSideContainerFormRadioButton label:hover {
+  cursor: pointer;
+  background-color: bisque;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsFormSideContainer .ContactUsFormSideContainerForm .ContactUsFormSideContainerFormRadioButton label:checked {
+  background-color: #000;
+}
+.ContactUsMainContainer .ContactUSContainer .ContactUsFormSideContainer .ContactUsFormSideContainerForm .ContactUsSUbmitButton {
+  margin: 5em 0 0 0;
+}
+
+@media (max-width: 900px) {
+  .ContactUsMainContainer .ContactUSContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .ContactUsMainContainer .ContactUSContainer .ContactUsLeftSideContainer {
+    width: 100%;
+  }
+  .ContactUsMainContainer .ContactUSContainer .ContactUsLeftSideContainer .ContactUsLeftSideContainerBody .ContactUsLeftSideIcon img {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+  }
+  .ContactUsMainContainer .ContactUSContainer .ContactUsLeftSideContainer .ContactUsLeftSideContainerBody .ContactUsLeftSideContents {
+    padding: 0 0 0 10px;
+  }
+  .ContactUsMainContainer .ContactUSContainer .ContactUsLeftSideContainer .ContactUsLeftSideContainerBody .ContactUsLeftSideContents h5 {
+    font-weight: 700;
+  }
+  .ContactUsMainContainer .ContactUSContainer .ContactUsLeftSideContainer .ContactUsLeftSideContainerBody .ContactUsLeftSideContents p {
+    line-height: 0.8;
+  }
+  .ContactUsMainContainer .ContactUSContainer .ContactUsLeftSideContainer .ContactUsLeftSideContainerBody .ContactUsLeftSideContents h6 {
+    font-weight: 900;
+  }
+  .ContactUsMainContainer .ContactUSContainer .ContactUsFormSideContainer {
+    width: 100%;
+  }
+  .ContactUsMainContainer .ContactUSContainer .ContactUsFormSideContainer .ContactUsFormSideContainerForm {
+    width: 100%;
+  }
+}/*# sourceMappingURL=Contacts.css.map */

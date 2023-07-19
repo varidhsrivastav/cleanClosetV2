@@ -1,0 +1,78 @@
+@import "../../../../GlobalCss/GlobalCss.scss";
+.MakingDiffMainContainer {
+    font-family: $ComfertaFont;
+    margin: 7vw 0vw;
+    .MakingDiffConatiner {
+        display: flex;
+        .MakingDiffPhoto{
+            width: 50%;
+            img{
+                width: 80%;
+            }
+        }
+        .MakingDiffContent {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h6{
+                color: $OrangePrimaryColor;
+            }
+            h1{
+                font-weight: 700;
+                text-shadow: $shadow1px;
+                color: $GreenPrimaryColor;
+            }
+            .MangingDiffInsideContent {
+                .MakingDiffInsideContentBody {
+                    display: flex;
+                    padding: 10px 0;
+                    .MakingDiffICBodyIcon {
+                        padding: 10px;
+                        i{
+                            font-size: 30px;
+                            color: $OrangePrimaryColor;
+                        }
+                        img{
+                            width: 40px;
+                            height:40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 900px) {
+    .MakingDiffMainContainer {
+        .MakingDiffConatiner {
+            display: flex;
+            flex-direction: column;
+            .MakingDiffPhoto{
+                width: 100%;
+                text-align: center;
+                img{
+                    width: 60%;
+                }
+            }
+            .MakingDiffContent {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-top: 20px;
+                .MangingDiffInsideContent {
+                    .MakingDiffInsideContentBody {
+                     
+                        .MakingDiffICBodyIcon {
+                            padding: 10px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }   
+}

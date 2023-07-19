@@ -1,0 +1,111 @@
+.SectionMainContainer {
+  width: 100%;
+  margin: 10vh 0;
+  font-family: "Comfortaa", cursive;
+}
+.SectionMainContainer .SectionContainer .ServiceContent {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 3;
+  -moz-column-gap: 2em;
+       column-gap: 2em;
+}
+.SectionMainContainer .SectionContainer .ServiceContent .SectionCards {
+  grid-column: 1/4;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 2;
+  -moz-column-gap: 2em;
+       column-gap: 2em;
+  row-gap: 2em;
+}
+.SectionMainContainer .SectionContainer .ServiceContent .SectionCards .ServiceCardBoday {
+  padding: 2em;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.SectionMainContainer .SectionContainer .ServiceContent .SectionCards .ServiceCardBoday:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.SectionMainContainer .SectionContainer .ServiceContent .SectionCards .ServiceCardBoday #service1 {
+  background-color: #FFF0EF !important;
+}
+.SectionMainContainer .SectionContainer .ServiceContent .SectionCards .ServiceCardBoday #service1 i {
+  color: #FF7468;
+}
+.SectionMainContainer .SectionContainer .ServiceContent .SectionCards .ServiceCardBoday .serviceIcon {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  background-color: #E9F5F3;
+  margin: 0 0 1em 0;
+}
+.SectionMainContainer .SectionContainer .ServiceContent .SectionCards .ServiceCardBoday .serviceIcon i {
+  color: #246359;
+  font-size: 30px;
+}
+.SectionMainContainer .SectionContainer .ServiceContent .SectionCards .ServiceCardBoday .serviceIcon img {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+.SectionMainContainer .SectionContainer .ServiceContent .SectionCards .ServiceCardBoday p {
+  width: 100%;
+  margin: 0;
+}
+.SectionMainContainer .SectionContainer .ServiceContent .ServiceSectionImage {
+  margin-left: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-column: 4/7;
+}
+.SectionMainContainer .SectionContainer .ServiceContent .ServiceSectionImage h6 {
+  color: #FF7468;
+  font-weight: 700;
+  margin: 0.5em 0;
+}
+.SectionMainContainer .SectionContainer .ServiceContent .ServiceSectionImage h1 {
+  font-weight: 900;
+  margin: 0.5em 0;
+  color: #246359;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+}
+.SectionMainContainer .SectionContainer .ServiceContent .ServiceSectionImage p {
+  width: 90%;
+}
+.SectionMainContainer .button-18 {
+  background-color: #FF7468;
+}
+
+@media (max-width: 1000px) {
+  .SectionMainContainer .SectionContainer .ServiceContent .SectionCards {
+    grid-column: 1/7;
+    grid-row: 2;
+    display: grid;
+    -moz-column-gap: 1em;
+         column-gap: 1em;
+    row-gap: 1em;
+  }
+  .SectionMainContainer .SectionContainer .ServiceContent .SectionCards .ServiceCardBoday {
+    padding: 1em;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .SectionMainContainer .SectionContainer .ServiceContent .SectionCards .ServiceCardBoday:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  }
+  .SectionMainContainer .SectionContainer .ServiceContent .ServiceSectionImage {
+    align-items: center;
+    justify-content: center;
+    grid-column: 1/7;
+    text-align: center;
+    margin: 0 0 3em 0;
+  }
+}/*# sourceMappingURL=Service.css.map */

@@ -1,0 +1,66 @@
+.MakingDiffMainContainer {
+  font-family: "Comfortaa", cursive;
+  margin: 7vw 0vw;
+}
+.MakingDiffMainContainer .MakingDiffConatiner {
+  display: flex;
+}
+.MakingDiffMainContainer .MakingDiffConatiner .MakingDiffPhoto {
+  width: 50%;
+}
+.MakingDiffMainContainer .MakingDiffConatiner .MakingDiffPhoto img {
+  width: 80%;
+}
+.MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent h6 {
+  color: #FF7468;
+}
+.MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent h1 {
+  font-weight: 700;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+  color: #246359;
+}
+.MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent .MangingDiffInsideContent .MakingDiffInsideContentBody {
+  display: flex;
+  padding: 10px 0;
+}
+.MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent .MangingDiffInsideContent .MakingDiffInsideContentBody .MakingDiffICBodyIcon {
+  padding: 10px;
+}
+.MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent .MangingDiffInsideContent .MakingDiffInsideContentBody .MakingDiffICBodyIcon i {
+  font-size: 30px;
+  color: #FF7468;
+}
+.MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent .MangingDiffInsideContent .MakingDiffInsideContentBody .MakingDiffICBodyIcon img {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 900px) {
+  .MakingDiffMainContainer .MakingDiffConatiner {
+    display: flex;
+    flex-direction: column;
+  }
+  .MakingDiffMainContainer .MakingDiffConatiner .MakingDiffPhoto {
+    width: 100%;
+    text-align: center;
+  }
+  .MakingDiffMainContainer .MakingDiffConatiner .MakingDiffPhoto img {
+    width: 60%;
+  }
+  .MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent .MangingDiffInsideContent .MakingDiffInsideContentBody .MakingDiffICBodyIcon {
+    padding: 10px;
+  }
+}/*# sourceMappingURL=Making.css.map */

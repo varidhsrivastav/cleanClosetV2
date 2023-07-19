@@ -1,0 +1,52 @@
+@import "../../../../GlobalCss/GlobalCss.scss";
+
+.OurStoryMainContainer {
+    font-family: $ComfertaFont;
+    padding:7em 0;
+    background-color: $greenLigntBackgroundColr;
+    .OurStoryContainer {
+        display: flex;
+        flex-direction: row;
+        
+        .OurStoryContainerContent {
+            width: 50%;
+
+            h1 {
+                font-weight: 700;
+                text-shadow: $shadow1px;
+                font-size: 64px;
+                color: $GreenPrimaryColor;
+            }
+
+            p {
+                width: 100%;
+                font-size: 18px;
+            }
+        }
+
+        .OurStroyContainerImage {
+            width: 50%;
+            text-align: center;
+                img {
+                    width: 400px !important;
+                    border-radius: 20px;
+                }
+            }
+        
+    }
+}
+
+@media (max-width:900px) {
+    .OurStoryMainContainer {
+        padding:11em 0;
+        .OurStoryContainer {
+            display: flex;
+            flex-direction: column;
+        //     justify-content: space-around;
+        // align-items:center;
+            .OurStoryContainerContent {
+                width: 100%;
+            }
+        }
+    }
+}

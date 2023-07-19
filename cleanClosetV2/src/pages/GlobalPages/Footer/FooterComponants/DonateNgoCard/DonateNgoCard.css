@@ -1,0 +1,41 @@
+.FooterNgoCardMainSection {
+  font-family: "Comfortaa", cursive;
+}
+.FooterNgoCardMainSection .FooterAddNgoSection {
+  padding: 5em 0;
+}
+.FooterNgoCardMainSection .FooterAddNgoSection .FooterAddNgoSectioncontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  background-color: #5DADAB;
+  border-radius: 10px;
+  min-height: 40vh;
+  padding: 2em;
+  justify-content: flex-end;
+}
+.FooterNgoCardMainSection .FooterAddNgoSection .FooterAddNgoSectioncontainer .AddNgoContent {
+  transition: transform 600ms;
+}
+.FooterNgoCardMainSection .FooterAddNgoSection .FooterAddNgoSectioncontainer .AddNgoContent:hover {
+  cursor: pointer;
+  transform: translateY(-100px);
+}
+.FooterNgoCardMainSection .FooterAddNgoSection .FooterAddNgoSectioncontainer .AddNgoContent:hover .AddNgoButton {
+  margin: 2em 0 0 0;
+  display: flex;
+}
+.FooterNgoCardMainSection .FooterAddNgoSection .FooterAddNgoSectioncontainer .AddNgoContent h1 {
+  font-weight: 900;
+  font-size: 58px;
+  color: #fff;
+}
+.FooterNgoCardMainSection .FooterAddNgoSection .FooterAddNgoSectioncontainer .AddNgoContent .AddNgoButton {
+  text-align: center;
+  display: none;
+}
+.FooterNgoCardMainSection .FooterAddNgoSection .FooterAddNgoSectioncontainer .AddNgoContent .AddNgoButton button {
+  margin: 0 2em 0 0;
+  background-color: #E9F5F3;
+  color: #246359;
+}/*# sourceMappingURL=DonateNgoCard.css.map */

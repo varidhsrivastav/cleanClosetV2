@@ -1,0 +1,295 @@
+@import "../../../../GlobalCss/GlobalCss.scss";
+
+.RrrpagemainContainer {
+    font-family: $ComfertaFont;
+    width: 100%;
+    padding: 10em 0;
+    position: relative;
+    background-color: $greenDarkBackgroundColor;
+
+    .Rrrpagecontainer {
+        width: 100%;
+        display: flex;
+
+        .rrrrepart {
+            padding: 0 0 0 6rem;
+            width: 50%;
+            // align-self: center;
+
+            h1 {
+                font-weight: 900;
+                font-size: 10rem;
+                color: #fff !important;
+            }
+
+            p {
+                font-size: 1.5em;
+                padding: 0 0 0 3rem;
+                color: #E9F5F3;
+            }
+        }
+
+        .rrrreFullFormPat {
+            width: 50%;
+
+            .Redis {
+                font-size: 3.5rem;
+                line-height: 0.8;
+                // color: #a19f9fe1;
+                color: #E9F5F3;
+
+              
+            }
+
+            .Redu {
+                font-weight: 900;
+                // color: #080707e1;
+                color: #fff !important;
+                font-size: 6rem;
+                line-height: 0.8;
+
+                &:hover {
+                    color: $OrangePrimaryColor;
+                }
+
+            }
+
+            .Reuse {
+                font-size: 6rem;
+                line-height: 0.8;
+                // color: #1b1b1be1;
+                color: #fff !important;
+
+                &:hover {
+                    color: $OrangePrimaryColor;
+                }
+            }
+
+
+            .Reclaim {
+                font-size: 4rem;
+                // color: #a19f9fe1;
+                color: #E9F5F3;
+                line-height: 0.8;
+            }
+
+            .Repur {
+                font-size: 3rem;
+                line-height: 0.8;
+                // color: #a19f9fe1;
+                color: #E9F5F3;
+            }
+
+            .Regenerate {
+                font-size: 3.1rem;
+                line-height: 0.8;
+                // color: #4e4e4ee1;
+                color: #E9F5F3;
+            }
+
+            .Recycle {
+                font-size: 6rem;
+                line-height: 0.8;
+                font-weight: 900;
+                // color: #111010e1;
+                color: #fff !important;
+
+                &:hover {
+                    color: $OrangePrimaryColor;
+                }
+
+            }
+        }
+    }
+}
+@media (max-width:1100px) {
+    .RrrpagemainContainer {
+        .Rrrpagecontainer {
+            flex-direction: column;
+            .rrrrepart {
+                width: 100%;
+                padding: 0 !important;
+
+                h1 {
+                    font-weight: 900;
+                    font-size: 10rem;
+                }
+
+                p {
+                    font-size: 1.5em;
+                    padding: 0 0 0 0rem;
+                }
+            }
+
+            .rrrreFullFormPat {
+                width: 100%;
+
+                .Redis {
+                    font-size: 3.5rem;
+                    line-height: 0.8;
+                }
+
+                .Redu {
+                    font-weight: 900;
+                    font-size: 6rem;
+                    line-height: 0.8;
+
+                }
+
+                .Reuse {
+                    font-size: 6rem;
+                    line-height: 0.8;
+                    color: #1b1b1be1;
+                }
+
+                .Reclaim {
+                    font-size: 4rem;
+                    line-height: 0.8;
+                }
+
+                .Repur {
+                    font-size: 3rem;
+                    line-height: 0.8;
+                }
+
+                .Regenerate {
+                    font-size: 3.1rem;
+                    line-height: 0.8;
+                }
+
+                .Recycle {
+                    font-size: 6rem;
+                    line-height: 0.8;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}
+@media (max-width:900px) {
+    .RrrpagemainContainer {
+        .Rrrpagecontainer {
+
+            .rrrrepart {
+                width: 100%;
+                padding: 0 !important;
+
+                h1 {
+                    font-weight: 900;
+                    font-size: 10rem;
+                }
+
+                p {
+                    font-size: 1.5em;
+                    padding: 0 0 0 0rem;
+                }
+            }
+
+            .rrrreFullFormPat {
+                width: 100%;
+
+                .Redis {
+                    font-size: 3.5rem;
+                    line-height: 0.8;
+                }
+
+                .Redu {
+                    font-weight: 900;
+                    font-size: 6rem;
+                    line-height: 0.8;
+
+                }
+
+                .Reuse {
+                    font-size: 6rem;
+                    line-height: 0.8;
+                    color: #1b1b1be1;
+                }
+
+                .Reclaim {
+                    font-size: 4rem;
+                    line-height: 0.8;
+                }
+
+                .Repur {
+                    font-size: 3rem;
+                    line-height: 0.8;
+                }
+
+                .Regenerate {
+                    font-size: 3.1rem;
+                    line-height: 0.8;
+                }
+
+                .Recycle {
+                    font-size: 6rem;
+                    line-height: 0.8;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:500px) {
+    .RrrpagemainContainer {
+        .Rrrpagecontainer {
+            flex-direction: column;
+
+            .rrrrepart {
+                h1 {
+                    font-weight: 900;
+                    font-size: 8rem;
+                }
+
+                p {
+                    font-size: 1.5em;
+                    padding: 0 !important;
+                }
+            }
+
+            .rrrreFullFormPat {
+                width: 50%;
+                padding: 0 !important;
+
+                .Redis {
+                    font-size: 2.5rem;
+                    line-height: 0.8;
+                }
+
+                .Redu {
+                    font-weight: 900;
+                    font-size: 5rem;
+                    line-height: 0.8;
+
+                }
+
+                .Reuse {
+                    font-size: 5rem;
+                    line-height: 0.8;
+                }
+
+                .Reclaim {
+                    font-size: 3rem;
+                    line-height: 0.8;
+                }
+
+                .Repur {
+                    font-size: 2rem;
+                    line-height: 0.8;
+                }
+
+                .Regenerate {
+                    font-size: 2.1rem;
+                    line-height: 0.8;
+                }
+
+                .Recycle {
+                    font-size: 5rem;
+                    line-height: 0.8;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}

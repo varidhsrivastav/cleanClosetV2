@@ -1,0 +1,204 @@
+@import "../../GlobalCss/GlobalCss.scss";
+
+.FooterMainContainer {
+    // background-color: #e1e1e1;
+    font-family: $ComfertaFont;
+
+    position: relative;
+
+    .FooterComponants {
+        .FooterAddNgoSection {
+            border: 1px solid black;
+            display: flex;
+            flex-direction: row;
+            padding: 3vw 0;
+
+            .AddNgoContent {
+                flex: 2.5;
+                padding: 0 10vw;
+            }
+
+            .AddNgoButton {
+                display: grid;
+                place-content: center;
+                flex: 1;
+            }
+        }
+
+        .FooterContactSections {
+            display: flex;
+            flex-direction: row;
+            gap: 4em;
+            margin: 2em 0;
+            .FooterCall {
+                text-decoration: none;
+                color: #000;
+                display: flex;
+                // justify-content: center;
+                align-items: center;
+                img {
+                    margin: 0 1em 0 0;
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+
+            .FooterEmail {
+                text-decoration: none;
+                color: #000;
+                display: flex;
+                align-items: center;
+
+                img {
+                    margin: 0 1em 0 0;
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+        }
+
+        .FooterMainSectionComponants {
+            .FooterMainSectionNavigation {
+                margin: 2em 0 0 0;
+                display: flex;
+                gap: 2em;
+                align-items: center;
+
+                .FooterMainSectionNavigationLogo {
+                    display: flex;
+                    padding: 0 1em 0 0;
+                    img{
+                        width: 200px;
+                    }
+
+                }
+
+                .FooterMainSectionNavigationSections {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 4em;
+                    margin: 0 0 0 3rem;
+                    h6{
+                        margin: 0;
+                        font-weight: 800;
+                    }
+                }
+
+                .FooterMainSectionNavigationBotton {
+                    margin-left: auto;
+                    margin-right: 0;
+                }
+            }
+
+            .CleanClosetSummeryFooter {
+                text-align: left;
+                padding: 3em 0;
+            }
+
+            .CleanClosetCopyrightFooter {
+                padding: 0 0 4em 0;
+                display: flex;
+                flex-direction: row;
+
+                .PolicyLinksandcookies {
+                    display: flex;
+                    flex-direction: row;
+                    margin-left: auto;
+                    margin-right: 0;
+                    gap: 2rem;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:900px) {
+    .FooterMainContainer {
+
+        // background-color: #e1e1e1;
+        .FooterComponants {
+            .FooterAddNgoSection {
+                border: 1px solid black;
+                display: flex;
+                flex-direction: row;
+                padding: 3vw 0;
+
+                .AddNgoContent {
+                    flex: 2.5;
+                    padding: 0 10vw;
+                }
+
+                .AddNgoButton {
+                    display: grid;
+                    place-content: center;
+                    flex: 1;
+                }
+            }
+
+            .FooterContactSections {
+                display: flex;
+                flex-direction: column;
+
+                .FooterCall {
+                    text-decoration: none;
+                    color: #000;
+                    display: flex;
+                    gap: 1em;
+
+                    img {
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+
+                .FooterEmail {
+                    text-decoration: none;
+                    color: #000;
+                    display: flex;
+                    gap: 1em;
+
+                    img {
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+            }
+
+            .FooterMainSectionComponants {
+                .FooterMainSectionNavigation {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2em;
+                    align-items: center;
+
+                    .FooterMainSectionNavigationSections {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 4em;
+                    }
+
+                    .FooterMainSectionNavigationBotton {
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footerImageDown {
+    img {
+        bottom: 0;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+}
