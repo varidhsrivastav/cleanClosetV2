@@ -1,7 +1,7 @@
 // import React from 'react';
 // import DonateNgoCrad from '../Footer/FooterComponants/DonateNgoCard/DonateNgoCrad';
 import DonationProgram from './LandingPageComponents/DonationProgram/DonationProgram';
-import Faq from './LandingPageComponents/FaQ/Faq';
+// import Faq from './LandingPageComponents/FaQ/Faq';
 // import Intro from './LandingPageComponents/HeroSection/Intro';
 import HowWeWork from './LandingPageComponents/HowWeWork/HowWeWork';
 // import IntroCard from './LandingPageComponents/IntroCard/IntroCard';
@@ -26,7 +26,7 @@ const LandingPage = () => {
       <MakingDiff/>
       <HowWeWork/>
       <Testimonials/>
-      <Faq/>
+      {/* <Faq/> */}
       {/* <DonateNgoCrad/> */}
     </div>
   )

@@ -1,0 +1,123 @@
+.DonationOrderUpdateMainContainer .DonationOrderUpdateContainer h4 {
+  margin: 1em 0 0 0;
+  font-weight: 900;
+}
+.DonationOrderUpdateMainContainer .DonationOrderUpdateContainer .DonationOrderUpdateOrderContainer {
+  margin: 2em 0;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.DonationOrderUpdateMainContainer .DonationOrderUpdateContainer .DonationOrderUpdateOrderContainer .DonationOrderUpdateOrder {
+  width: 50%;
+  background-color: #e4e4e4;
+  padding: 10px;
+  border-radius: 10px;
+}
+.DonationOrderUpdateMainContainer .DonationOrderUpdateContainer .DonationOrderUpdateOrderContainer .DonationOrderUpdateOrder .DonationOrderUpdateOrderTime {
+  padding: 10px;
+}
+.DonationOrderUpdateMainContainer .DonationOrderUpdateContainer .DonationOrderUpdateOrderContainer .DonationOrderUpdateOrder .DonationOrderUpdateOrderContent {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+.DonationOrderUpdateMainContainer .DonationOrderUpdateContainer .DonationOrderUpdateOrderContainer .DonationOrderUpdateOrder .DonationOrderUpdateOrderContent .DonationOrderUpdateOrderContentImg img {
+  width: 100px;
+  height: 100px;
+}
+.DonationOrderUpdateMainContainer .DonationOrderUpdateContainer .DonationOrderUpdateOrderContainer .DonationOrderUpdateOrder .DonationOrderUpdateOrderContent .DonationOrderUpdateOrderContentDesc {
+  padding: 20px 0;
+}
+.DonationOrderUpdateMainContainer .DonationOrderUpdateContainer .DonationOrderUpdateOrderContainer .DonationOrderUpdateOrder .DonationOrderUpdateOrderContentAdd {
+  border: 1px solid #8a8484;
+  padding: 10px;
+}
+.DonationOrderUpdateMainContainer .DonationOrderUpdateContainer .DonationOrderUpdateOrderContainer .DonationOrderUpdateOrder .DonationOrderUpdateOrderContentTrack {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  border: 1px solid #8a8484;
+  padding: 10px;
+  margin: 10px 0;
+}
+.DonationOrderUpdateMainContainer .DonationOrderUpdateContainer .DonationOrderUpdateOrderContainer .DonationOrderUpdateOrder .DonationOrderUpdateOrderContentTrack a {
+  position: absolute;
+  right: 3%;
+}
+.DonationOrderUpdateMainContainer .DonationOrderUpdateContainer .DonationOrderUpdateOrderContainer .DonationOrderUpdateOrder .DonationOrderUpdateOrderContentTrack a img {
+  width: 30px;
+}
+.DonationOrderUpdateMainContainer .DonationOrderUpdateContainer .DonationOrderUpdateOrderContainer .DonationUpdateOrderHelp {
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+  background-color: #e1e1e1;
+}
+.DonationOrderUpdateMainContainer .DonationOrderUpdateContainer .DonationOrderUpdateOrderContainer .DonationUpdateOrderHelp .DonationUpdateOrderHelpbUTTON {
+  background-color: #fff;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+@media (max-width: 900px) {
+  .DonationOrderUpdateMainContainer .DonationOrderUpdateContainer h4 {
+    margin: 1em 0 0 0;
+    font-weight: 900;
+  }
+  .DonationOrderUpdateMainContainer .DonationOrderUpdateContainer .DonationOrderUpdateOrderContainer {
+    margin: 2em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .DonationOrderUpdateMainContainer .DonationOrderUpdateContainer .DonationOrderUpdateOrderContainer .DonationOrderUpdateOrder {
+    width: 100%;
+    background-color: #e4e4e4;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .DonationOrderUpdateMainContainer .DonationOrderUpdateContainer .DonationOrderUpdateOrderContainer .DonationOrderUpdateOrder .DonationOrderUpdateOrderTime {
+    padding: 10px;
+  }
+  .DonationOrderUpdateMainContainer .DonationOrderUpdateContainer .DonationOrderUpdateOrderContainer .DonationOrderUpdateOrder .DonationOrderUpdateOrderContent {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+  }
+  .DonationOrderUpdateMainContainer .DonationOrderUpdateContainer .DonationOrderUpdateOrderContainer .DonationOrderUpdateOrder .DonationOrderUpdateOrderContent .DonationOrderUpdateOrderContentImg img {
+    width: 100px;
+    height: 100px;
+  }
+  .DonationOrderUpdateMainContainer .DonationOrderUpdateContainer .DonationOrderUpdateOrderContainer .DonationOrderUpdateOrder .DonationOrderUpdateOrderContent .DonationOrderUpdateOrderContentDesc {
+    padding: 20px 0;
+  }
+  .DonationOrderUpdateMainContainer .DonationOrderUpdateContainer .DonationOrderUpdateOrderContainer .DonationOrderUpdateOrder .DonationOrderUpdateOrderContentAdd {
+    border: 1px solid #8a8484;
+    padding: 10px;
+  }
+  .DonationOrderUpdateMainContainer .DonationOrderUpdateContainer .DonationOrderUpdateOrderContainer .DonationOrderUpdateOrder .DonationOrderUpdateOrderContentTrack {
+    border: 1px solid #8a8484;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  .DonationOrderUpdateMainContainer .DonationOrderUpdateContainer .DonationOrderUpdateOrderContainer .DonationUpdateOrderHelp {
+    width: 100%;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    background-color: #e1e1e1;
+  }
+  .DonationOrderUpdateMainContainer .DonationOrderUpdateContainer .DonationOrderUpdateOrderContainer .DonationUpdateOrderHelp .DonationUpdateOrderHelpbUTTON {
+    background-color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+}/*# sourceMappingURL=DonationOrderUpdate.css.map */

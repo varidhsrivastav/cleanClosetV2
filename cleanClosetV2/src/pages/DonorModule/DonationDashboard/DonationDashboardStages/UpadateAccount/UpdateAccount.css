@@ -1,0 +1,36 @@
+.UpdateAccountMainContainer .UpdateAccountContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.UpdateAccountMainContainer .UpdateAccountContainer .UpdateAccountContainerProfile {
+  margin: 2em 0;
+  width: 100%;
+}
+.UpdateAccountMainContainer .UpdateAccountContainer .UpdateAccountContainerProfile .UpdateAccountContainerProfileBody {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+.UpdateAccountMainContainer .UpdateAccountContainer .UpdateAccountContainerProfile .UpdateAccountContainerProfileBody .DBDFinputupdateFields {
+  display: flex;
+  gap: 2em;
+}
+.UpdateAccountMainContainer .UpdateAccountContainer .UpdateAccountContainerProfile .UpdateAccountContainerProfileBody .DBDFinputupdateFields label {
+  font-weight: 700;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+  padding-bottom: 0.5em;
+  font-size: 17px;
+}
+.UpdateAccountMainContainer .UpdateAccountContainer .UpdateAccountContainerProfile .UpdateAccountContainerProfileBody .DBDFinputupdateFields input {
+  min-width: 400px;
+  background-color: transparent;
+  border-top: none;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid black;
+  margin: 0;
+}
+.UpdateAccountMainContainer .UpdateAccountContainer .UpdateAccountContainerProfile .UpdateAccountContainerProfileBody .DBDFinputupdateFields input:focus {
+  outline: none;
+}/*# sourceMappingURL=UpdateAccount.css.map */

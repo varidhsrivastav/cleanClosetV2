@@ -1,12 +1,12 @@
-import React from "react";
+// import React from "react";
 import "./Footer.css";
 import call from "./FooterComponants/img/call.png";
 import email from "./FooterComponants/img/message.png";
-import footerImage from './image/myProfileFooter_4e9fe2.png';
-import logo from "./image/cleanclosethighLogo.png"
+import footerImage from "./image/myProfileFooter_4e9fe2.png";
+import logo from "./image/cleanclosethighLogo.png";
 const Footer = () => {
   return (
-    <div className="FooterMainContainer">
+    <div className="FooterMainContainer pt-10">
       <div className="FooterComponants container">
         <p>Contact our volenteers and join the Clean Closet </p>
         <div className="FooterContactSections  ">
@@ -38,27 +38,29 @@ const Footer = () => {
               </a>
             </div>
             <div className="FooterMainSectionNavigationBotton">
-              <button class="DonateButton" role="button">
+              <button className="DonateButton" role="button">
                 Add Ngo
               </button>
             </div>
           </div>
           <div className="CleanClosetSummeryFooter">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-            minus, vel quod numquam est aspernatur quo sit nisi. Error, a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam earum sequi vitae deserunt harum. Beatae harum eligendi quaerat! Deleniti, officia?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vero eos impedit, laboriosam adipisci ex velit neque asperiores ad! Nobis.
+            minus, vel quod numquam est aspernatur quo sit nisi. Error, a! Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Quam earum sequi
+            vitae deserunt harum. Beatae harum eligendi quaerat! Deleniti,
+            officia?Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Pariatur vero eos impedit, laboriosam adipisci ex velit neque
+            asperiores ad! Nobis.
           </div>
           <div className="CleanClosetCopyrightFooter">
-            <a href="">
-             @2023 copyright CleanCloset
-            </a>
+            <a href="">@2023 copyright CleanCloset</a>
             <div className="PolicyLinksandcookies">
-
-            <a href="" className="PrivacyPolicy">
-              Privacy Policy
-            </a>
-            <a href="" className="Cookies">
-              Cookies
-            </a>
+              <a href="" className="PrivacyPolicy">
+                Privacy Policy
+              </a>
+              <a href="" className="Cookies">
+                Cookies
+              </a>
             </div>
           </div>
         </div>

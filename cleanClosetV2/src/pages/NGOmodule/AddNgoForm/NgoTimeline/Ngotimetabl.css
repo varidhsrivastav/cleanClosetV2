@@ -1,0 +1,154 @@
+.DonationTimelineContentMainComponants {
+  margin: 5em 0;
+}
+.DonationTimelineContentMainComponants .DotiButtonBack {
+  margin: 2em 3em;
+}
+.DonationTimelineContentMainComponants .DotiButtonBack img {
+  width: 50px;
+  height: 50px;
+}
+.DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents .DtpContent {
+  margin: 0 0 2em 0;
+}
+.DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents .DtpContent h1 {
+  font-size: 45px;
+  letter-spacing: 2px;
+  text-shadow: 0px 2px, 2px 0px, 2px 2px;
+  color: #246359;
+}
+.DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents .DtpContent p {
+  text-align: center;
+  margin: 0.5em 0 1em 0;
+}
+.DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents .DonationTimelineCard {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+.DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents .DonationTimelineCard .DonationTimeCardBody {
+  max-width: 7vw;
+  text-align: center;
+  display: flex;
+  margin: 0 2em;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+}
+.DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents .DonationTimelineCard .DonationTimeCardBody h6 {
+  font-weight: 700;
+  font-size: 24px;
+}
+.DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents .DonationTimelineCard .DonationTimeCardBody .dtp {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+.DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents .DonationTimelineCard .DonationTimeCardBody .dtp p {
+  width: 100%;
+  font-size: 1rem;
+}
+.DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents .DonationTimelineCard .DonationTimeCardBody .DTicon {
+  background-color: rgb(243, 243, 243);
+  padding: 1.2rem 0;
+  border-radius: 10px;
+  margin: 0 0 0.5rem 0;
+}
+.DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents .DonationTimelineCard .DonationTimeCardBody .DTicon img {
+  width: 50px;
+  height: 50px;
+}
+.DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents .DonationTimelineCard .DonationArrow {
+  align-self: center;
+}
+.DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents .DonationTimelineCard .DonationArrow .RigthArrow img {
+  width: 50px;
+  height: 50px;
+}
+.DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents .DonationTimelineCard .DonationArrow .DownArrow img {
+  width: 50px;
+  visibility: hidden;
+}
+.DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents .DotiButton {
+  margin: 3em 0 0 0;
+}
+.DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents .DotiButton .DonateButton {
+  background-color: #FCD24C;
+  color: #246359;
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .DonationTimelineContentMainComponants .DotiButtonBack {
+    margin: 2em 3em;
+  }
+  .DonationTimelineContentMainComponants .DotiButtonBack img {
+    width: 50px;
+    height: 50px;
+  }
+  .DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents h1 {
+    width: 100%;
+    text-align: center;
+  }
+  .DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents p {
+    font-size: 1.3em;
+  }
+  .DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents .DonationTimelineCard {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  .DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents .DonationTimelineCard .DonationTimeCardBody {
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+  }
+  .DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents .DonationTimelineCard .DonationTimeCardBody .dtp {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+  }
+  .DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents .DonationTimelineCard .DonationTimeCardBody .DTicon {
+    border-radius: 10px;
+    margin: 0 0 0.5rem 0;
+  }
+  .DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents .DonationTimelineCard .DonationTimeCardBody .DTicon img {
+    width: 50px;
+    height: 50px;
+  }
+  .DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents .DonationTimelineCard .DonationArrow {
+    align-self: center;
+  }
+  .DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents .DonationTimelineCard .DonationArrow .RigthArrow {
+    display: none;
+  }
+  .DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents .DonationTimelineCard .DonationArrow .RigthArrow img {
+    width: 30px;
+    height: 30px;
+  }
+  .DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents .DonationTimelineCard .DonationArrow .DownArrow img {
+    visibility: visible;
+    width: 150px;
+    height: 90px;
+  }
+  .DonationTimelineContentMainComponants .DonationTimelineInfoContainer .DonationTimelineContents .DotiButton {
+    margin: 3em 0 0 0;
+  }
+}/*# sourceMappingURL=Ngotimetabl.css.map */

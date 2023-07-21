@@ -1,0 +1,144 @@
+
+.DonationOrderUpdateMainContainer{
+    .DonationOrderUpdateContainer{
+        h4{
+            margin: 1em 0 0 0 ;
+            font-weight: 900;
+        }
+        .DonationOrderUpdateOrderContainer{
+            margin: 2em 0 ;
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+            .DonationOrderUpdateOrder{
+                width: 50%;
+                // background-color: #fff;
+                background-color: #e4e4e4;
+                padding: 10px;
+                border-radius: 10px;
+                .DonationOrderUpdateOrderTime{
+                    padding: 10px;
+                }
+                .DonationOrderUpdateOrderContent{
+                    display: flex;
+                    gap: 1em;
+                    align-items: center;
+                    .DonationOrderUpdateOrderContentImg{
+                        img{
+                            width: 100px;
+                            height: 100px;
+                        }
+                    }
+                    .DonationOrderUpdateOrderContentDesc{
+                        padding: 20px 0;
+                    }
+
+
+                }
+                .DonationOrderUpdateOrderContentAdd{
+                    border: 1px solid #8a8484;
+                    padding: 10px;
+                }
+                .DonationOrderUpdateOrderContentTrack{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    position: relative;
+                    border: 1px solid #8a8484;
+                    padding: 10px;
+                    margin: 10px 0 ;
+                    a{
+                        position: absolute;
+                        right: 3%;
+                        img{
+                            width: 30px;
+                        }
+                    }
+                }
+            }
+            .DonationUpdateOrderHelp{
+                width: 50%;
+                height: 50%;
+                border-radius: 10px ;
+                padding: 40px;
+                text-align: center;
+                background-color: #e1e1e1;
+                .DonationUpdateOrderHelpbUTTON{
+                    background-color: #fff;
+                    text-transform: uppercase;
+                    padding: 10px 20px;
+                    border-radius: 10px;
+                    // outline: none;
+                    border: 1px solid black;
+                }
+            }
+        }
+    }
+}
+@media (max-width:900px){
+    .DonationOrderUpdateMainContainer{
+        .DonationOrderUpdateContainer{
+            h4{
+                margin: 1em 0 0 0 ;
+                font-weight: 900;
+            }
+            .DonationOrderUpdateOrderContainer{
+                margin: 2em 0 ;
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                .DonationOrderUpdateOrder{
+                    width: 100%;
+                    // background-color: #fff;
+                    background-color: #e4e4e4;
+                    padding: 10px;
+                    border-radius: 10px;
+                    .DonationOrderUpdateOrderTime{
+                        padding: 10px;
+                    }
+                    .DonationOrderUpdateOrderContent{
+                        display: flex;
+                        gap: 1em;
+                        align-items: center;
+                        .DonationOrderUpdateOrderContentImg{
+                            img{
+                                width: 100px;
+                                height: 100px;
+                            }
+                        }
+                        .DonationOrderUpdateOrderContentDesc{
+                            padding: 20px 0;
+                        }
+    
+    
+                    }
+                    .DonationOrderUpdateOrderContentAdd{
+                        border: 1px solid #8a8484;
+                        padding: 10px;
+                    }
+                    .DonationOrderUpdateOrderContentTrack{
+                        border: 1px solid #8a8484;
+                        padding: 10px;
+                        margin: 10px 0 ;
+                    }
+                }
+                .DonationUpdateOrderHelp{
+                    width: 100%;
+                    // height: 50%;
+                    border-radius: 10px ;
+                    padding: 40px;
+                    text-align: center;
+                    background-color: #e1e1e1;
+                    .DonationUpdateOrderHelpbUTTON{
+                        background-color: #fff;
+                        text-transform: uppercase;
+                        padding: 10px 20px;
+                        border-radius: 10px;
+                        // outline: none;
+                        border: 1px solid black;
+                    }
+                }
+            }
+        }
+    }
+}

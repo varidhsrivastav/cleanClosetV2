@@ -1,5 +1,5 @@
-import React from "react";
-import left from "./Image/left-arrow.png"
+// import React from "react";
+import left from "./Image/left-arrow.png";
 import "./DonorFormTimeline.css";
 import certificate from "./Image/certificate.png";
 import delivery from "./Image/delivery.png";
@@ -13,20 +13,19 @@ const DonorFormTimeline = () => {
   return (
     <div className="DonationTimelineContentMainComponants">
       <div className="DotiButtonBack">
-      <Link to="/DonorLandingPage">
+        <Link to="/DonorLandingPage">
           <img src={left} alt="" />
-      </Link>
+        </Link>
       </div>
       <div className="DonationTimelineInfoContainer">
         <div className="DonationTimelineContents container">
-        <div className="DtpContent">
-
-          <h1>Donate now with these simple steps</h1>
-          <p>Be the reason for someone happiness</p>
-        </div>
+          <div className="DtpContent">
+            <h1>Donate now with these simple steps</h1>
+            <p>Be the reason for someone happiness</p>
+          </div>
           <div className="DonationTimelineCard">
             <div className="DonationTimeCardBody">
-              <div className="DTicon">
+              <div className="DTicon flex justify-center">
                 <img src={user} alt="" />
               </div>
               <h6>Sign Up</h6>
@@ -43,7 +42,7 @@ const DonorFormTimeline = () => {
               </div>
             </div>
             <div className="DonationTimeCardBody">
-              <div className="DTicon">
+              <div className="DTicon flex justify-center">
                 <img src={registrationForm} alt="" />
               </div>
 
@@ -61,7 +60,7 @@ const DonorFormTimeline = () => {
               </div>
             </div>
             <div className="DonationTimeCardBody">
-              <div className="DTicon">
+              <div className="DTicon flex justify-center">
                 <img src={delivery} alt="" />
               </div>
 
@@ -79,7 +78,7 @@ const DonorFormTimeline = () => {
               </div>
             </div>
             <div className="DonationTimeCardBody">
-              <div className="DTicon">
+              <div className="DTicon flex justify-center">
                 <img src={certificate} alt="" />
               </div>
               <h6>Get Certificate</h6>
@@ -89,12 +88,9 @@ const DonorFormTimeline = () => {
             </div>
           </div>
           <div className="DotiButton">
-          <Link to="/DonorLandingPage/timeline/signup">
-            
-            <button class="DonateButton">
-              Continue
-            </button>
-          </Link>
+            <Link to="/DonorLandingPage/timeline/signup">
+              <button className="DonateButton">Continue</button>
+            </Link>
           </div>
         </div>
       </div>
