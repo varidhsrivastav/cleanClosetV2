@@ -13,10 +13,10 @@ async function main() {
 app.use(express.urlencoded({extended: true}))
 app.use(express.json())
 
-app.post('/donorRegister', (req, res) => {
+app.post('/donorRegister', async (req, res) => {
     const data = req.body
     const newDonor = new Donor(data)
-    newDonor.save()
+    await newDonor.save()
     res.status(200).json(newDonor)
 })
 
