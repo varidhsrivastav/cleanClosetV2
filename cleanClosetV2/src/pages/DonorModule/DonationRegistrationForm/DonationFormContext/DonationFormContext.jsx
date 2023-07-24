@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 // import DonationDashboardContext from '../../DonationDashboard/DonatationDshboardContext/DonationDashboardContext';
 import DonationRegistration from '../DonationRegistration';
-import { useNavigate} from 'react-router-dom'
+// import { useNavigate} from 'react-router-dom'
 import validate from '../Stages/Vlidation';
 export const multiStepContext = React.createContext();
 

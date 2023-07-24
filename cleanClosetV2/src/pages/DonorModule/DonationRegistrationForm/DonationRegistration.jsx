@@ -67,7 +67,7 @@ const DonationRegistration = () => {
       pinCode,
       dateOfPickup} = userdata;
 
-    const res = await fetch("/donorRegister", {
+    const res = await fetch("http://localhost:5002/donorRegister", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -17,6 +17,7 @@ import DonationDashboardContext from "./pages/DonorModule/DonationDashboard/Dona
 import DonationDashbaord from "./pages/DonorModule/DonationDashboard/DonationDashbaord";
 import Footer from "./pages/GlobalPages/Footer/Footer";
 import NgoTimeline from "./pages/NGOmodule/AddNgoForm/NgoTimeline/NgoTimeline";
+import Admin from "./pages/AdminDashboard/Admin";
 
 // import Navbar from "./pages/GlobalPages/Navbar/Navbar";
 function App() {
@@ -28,10 +29,10 @@ function App() {
   return (
     <div className="">
       <Router>
-        <Navbar />
+      {window.location.pathname !== ("/admin/Dashboard") && window.location.pathname !== ("/NgoForm")  ? <Navbar />: null} 
+        
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="/error" element={<ErrorPage />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/ngo" element={<NgoMdoule />} />
@@ -57,11 +58,13 @@ function App() {
           />
           <Route path="*" element={<ErrorPage />} />
           <Route path="/ngo/timeline" element={<NgoTimeline/>} />
+          <Route path="/admin/Dashboard" element={<Admin/>} />
+          
           
         </Routes>
-        {/* {window.location.pathname !== ("/DonorLandingPage/timeline/signup/reg") && window.location.pathname !== ("/NgoForm")  ? <Footer />: null}  */}
+        {window.location.pathname !== ("/donor/timeline/reg") && window.location.pathname !== ("/NgoForm") && window.location.pathname !== ("/admin")  ? <Footer />: null} 
 
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </div>
   );

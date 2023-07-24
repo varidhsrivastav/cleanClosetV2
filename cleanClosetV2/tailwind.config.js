@@ -13,7 +13,9 @@ export default {
       colors: {
         'heroPagebg': '#E9F5F3',
         'rrrpage': '#5DADAB',
-        'ngoback' : '#E4E0DD'
+        'ngoback' : '#E4E0DD',
+        "dark-purple": "#5DADAB",
+        "light-white": "rgba(255,255,255,0.17)",
       },
       height: {
         '70': '70vh',
