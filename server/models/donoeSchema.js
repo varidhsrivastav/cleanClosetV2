@@ -60,10 +60,10 @@ const donorSchema = new mongoose.Schema({
         type:String,
         required: [true, "Name Required."],
     },
-    infectionName: {
-        type:String,
-        required: [true, "Name Required."],
-    },
+    // infectionName: {
+    //     type:String,
+    //     required: [true, "Name Required."],
+    // },
     pickupService:  {
         type:String,
         required: [true, "Name Required."],
