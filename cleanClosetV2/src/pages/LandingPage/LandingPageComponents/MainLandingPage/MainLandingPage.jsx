@@ -1,5 +1,6 @@
 // import React from "react";
 // import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./MainLandingPage.css";
 import hands from "./image/hands-removebg-preview.png";
 // import { useAuth0, withAuthenticationRequired } from "@auth0/auth0-react";
@@ -22,11 +23,12 @@ const MainLandingPage = () => {
         </div>
         <div className="MainLandingPageContainerButtonsConatiner">
           <div className="MainLandingPageContainerButtons1">
-            <a href="/DonorLandingPage">
+            <Link to="/donor">
               <button className="DonateButton">
                 <span className="button_top"> Donate Now</span>
               </button>
-            </a>
+            </Link>
+            
           </div>
           <div className="MainLandingPageContainerButtons2">
             {/*      
