@@ -17,7 +17,7 @@ const HowWeWork = () => {
               <i className="fi fi-sr-truck-loading"></i>
             </div>
             <div className="HwwCardHeading">
-              <h3>Schedule a pickup</h3>
+              <h3 className="text-2xl">Schedule a pickup</h3>
             </div>
             <div className="HwwCardPara">
               The website can arrange for the collection of clothing donations
@@ -25,7 +25,9 @@ const HowWeWork = () => {
             </div>
             <div className="HwwCardButton">
               <a href="/DonorLandingPage">
-                <button className="button-18">Donate Now</button>
+              
+
+                <button className="button-40">Donate Now</button>
               </a>
             </div>
           </div>
@@ -38,7 +40,7 @@ const HowWeWork = () => {
               <i className="fi fi-sr-door-open"></i>
             </div>
             <div className="HwwCardHeading">
-              <h3>Donate at Doorstep</h3>
+              <h3  className="text-2xl">Donate at Doorstep</h3>
             </div>
             <div className="HwwCardPara">
               The website can provide delivery partner to pick up from door and
@@ -46,7 +48,7 @@ const HowWeWork = () => {
             </div>
             <div className="HwwCardButton">
               <a href="/DonorLandingPage">
-                <button className="button-18">Donate Now</button>
+                <button className="button-40">Donate Now</button>
               </a>
             </div>
           </div>
@@ -55,7 +57,7 @@ const HowWeWork = () => {
               <i className="fi fi-sr-badge"></i>
             </div>
             <div className="HwwCardHeading">
-              <h3>Get Certeified</h3>
+              <h3  className="text-2xl">Get Certeified</h3>
             </div>
             <div className="HwwCardPara">
               CleanCloset will provide you certificate and reward every time
@@ -63,7 +65,7 @@ const HowWeWork = () => {
             </div>
             <div className="HwwCardButton">
               <a href="/DonorLandingPage">
-                <button className="button-18">Donate Now</button>
+                <button className="button-40">Donate Now</button>
               </a>
             </div>
           </div>

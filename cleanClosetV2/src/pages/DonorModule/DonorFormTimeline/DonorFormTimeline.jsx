@@ -13,7 +13,7 @@ const DonorFormTimeline = () => {
   return (
     <div className="DonationTimelineContentMainComponants">
       <div className="DotiButtonBack">
-        <Link to="/DonorLandingPage">
+        <Link to="/donor">
           <img src={left} alt="" />
         </Link>
       </div>
@@ -88,7 +88,7 @@ const DonorFormTimeline = () => {
             </div>
           </div>
           <div className="DotiButton">
-            <Link to="/DonorLandingPage/timeline/signup">
+            <Link to="/donor/timeline/reg">
               <button className="DonateButton">Continue</button>
             </Link>
           </div>

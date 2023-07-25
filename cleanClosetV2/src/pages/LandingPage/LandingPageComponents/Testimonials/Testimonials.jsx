@@ -18,7 +18,7 @@ const Testimonials = () => {
         </p>
 
         <div className="TestimonialsContainerCardContainer">
-          <div className="TestimonialsContainerCardBody" id="cardbody1" data-aos="flip-down">
+          <div className="TestimonialsContainerCardBody bg-cyan-500" id="cardbody1" data-aos="flip-down" >
             <div className="TestimonialsContainerCardBodyImage">
               <img src={man} alt="" />
             </div>
@@ -36,7 +36,7 @@ const Testimonials = () => {
                   // valign="bottom"
                 >
                   <h6>Minesh</h6>
-                  <p>Donated 10kg of </p>
+                  <p className="mt-2">Donated 10kg of </p>
                 </div>
               </div>
             </div>
@@ -59,7 +59,7 @@ const Testimonials = () => {
                   // valign="bottom"
                 >
                   <h6>Divyankit</h6>
-                  <p>Donated 5kg of </p>
+                  <p className="mt-2">Donated 5kg of </p>
                 </div>
               </div>
             </div>

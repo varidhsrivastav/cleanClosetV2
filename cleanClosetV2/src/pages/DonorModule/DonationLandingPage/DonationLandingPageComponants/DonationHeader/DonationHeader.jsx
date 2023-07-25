@@ -1,5 +1,5 @@
 // import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./DonationHeader.css";
 // import Donate from "./Image/colthpng.png";
 import happychild from "./Image/happy_children.jpg";
@@ -16,12 +16,12 @@ const DonationHeader = () => {
           times in their entire lives. The clothes you donate today will be worn
           by somebody who can not afford them as we can. Donate generously!”
         </p>
-        {/* <Link to="/DonorLandingPage/timeline">
+        <Link to="/donor/timeline">
 
         <button className="DonateButton DonationHeaderIntroSectionContainerBtn ">
     <span>Donate Now</span>
 </button>
-        </Link> */}
+        </Link>
       </div>
     </div>
   );

@@ -2,74 +2,45 @@
   margin: 68px 0;
   font-family: "Comfortaa", cursive;
 }
-.DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide {
-  width: 40%;
-  position: fixed;
-  min-height: 95vh;
-  background-color: #FEEA94;
+.DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DsFRightSide {
+  min-height: 93vh;
 }
-.DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide .DoationBasicDetailFormLSideC {
-  padding: 2rem;
+.DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DsFRightSide .DsFRightSideContent {
+  margin: 1em 0 !important;
+  padding: 3vh 5vh;
 }
-.DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide .DoationBasicDetailFormLSideC .DoationBasicDetailFormLogo img {
-  width: 70px;
-}
-.DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide .DoationBasicDetailFormLSideC .DoationBasicDetailFormIntroContent {
-  min-height: 60vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 1rem;
-}
-.DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide .DoationBasicDetailFormLSideC .DoationBasicDetailFormIntroContent h1 {
-  font-size: 64px;
-  width: 100%;
+.DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DsFRightSide .DsFRightSideContent h2 {
+  font-weight: 700;
   text-shadow: 0px 1px, 1px 0px, 1px 1px;
 }
-.DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide .DoationBasicDetailFormLSideC .DoationBasicDetailFormIntroContent p {
-  width: 70%;
-}
-.DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide .DoationBasicDetailFormLSideC .DoationBasicDetailFormCourosel .swiper {
-  width: 80%;
-}
-.DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide .DoationBasicDetailFormLSideC .DoationBasicDetailFormCourosel .DoationBasicDetailFormCouroselBody {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  border-radius: 10px;
-  background-color: #6CABA3;
-  padding: 1em;
-}
-.DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide .DoationBasicDetailFormLSideC .DoationBasicDetailFormCourosel .DoationBasicDetailFormCouroselBody p {
-  margin: 0;
-}
-.DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide .DoationBasicDetailFormLSideC .DoationBasicDetailFormCourosel .DoationBasicDetailFormCouroselBody .DBDFProfileinfo {
-  display: flex;
-  margin: 0.8em 0;
-}
-.DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide .DoationBasicDetailFormLSideC .DoationBasicDetailFormCourosel .DoationBasicDetailFormCouroselBody .DBDFProfileinfo .profilePic img {
-  width: 50px;
-  height: 50px;
-  border-radius: 10px;
-}
-.DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide .DoationBasicDetailFormLSideC .DoationBasicDetailFormCourosel .DoationBasicDetailFormCouroselBody .DBDFProfileinfo .NameAndNgoName {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 1em;
-}
-.DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide .DoationBasicDetailFormLSideC .DoationBasicDetailFormCourosel .DoationBasicDetailFormCouroselBody .DBDFProfileinfo .NameAndNgoName .profielName h6 {
-  margin: 0;
+.DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DsFRightSide .DsFRightSideContent p {
+  color: #246359;
+  letter-spacing: 2px;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
   font-weight: 700;
+  font-size: 24px;
 }
-.DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide .DoationBasicDetailFormLSideC .DoationBasicDetailFormCourosel .DoationBasicDetailFormCouroselBody .DBDFProfileinfo .NameAndNgoName .profielName p {
-  margin: 0;
+.DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DsFRightSide .DsFRigthSideContentImage {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DsFRightSide .DsFRigthSideContentImage img {
+  margin: 4vh;
+  top: 0;
+}
+.DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DsFRightSide .TermAndCondition {
+  text-align: center;
+  margin-top: 30px;
+}
+.DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DsFRightSide .TermAndCondition a {
+  text-decoration: none;
+  color: #246359;
+  font-weight: 700;
 }
 .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide {
   width: 60%;
   position: relative;
-  top: 0%;
-  left: 40%;
 }
 .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody {
   min-height: 100vh;
@@ -85,7 +56,6 @@
 }
 .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm {
   margin: 3em 0 0 0;
-  width: 60%;
 }
 .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm .DBDFinputFields {
   display: flex;
@@ -156,225 +126,4 @@
 }
 .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm .DBDFSubmitbuttons {
   margin: 3rem 0 0 0;
-}
-
-@media (max-width: 1400px) {
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide .DoationBasicDetailFormLSideC .DoationBasicDetailFormIntroContent {
-    min-height: 50vh;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide .DoationBasicDetailFormLSideC .DoationBasicDetailFormIntroContent h1 {
-    font-size: 48px;
-    width: 100%;
-    text-shadow: 0px 1px, 1px 0px, 1px 1px;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide .DoationBasicDetailFormLSideC .DoationBasicDetailFormIntroContent p {
-    width: 70%;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide .DoationBasicDetailFormLSideC .DoationBasicDetailFormCourosel .swiper {
-    width: 80%;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide .DoationBasicDetailFormLSideC .DoationBasicDetailFormCourosel .DoationBasicDetailFormCouroselBody {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    border-radius: 10px;
-    background-color: #6CABA3;
-    padding: 1em;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide .DoationBasicDetailFormLSideC .DoationBasicDetailFormCourosel .DoationBasicDetailFormCouroselBody p {
-    margin: 0;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide .DoationBasicDetailFormLSideC .DoationBasicDetailFormCourosel .DoationBasicDetailFormCouroselBody .DBDFProfileinfo {
-    display: flex;
-    margin: 0.8em 0;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide .DoationBasicDetailFormLSideC .DoationBasicDetailFormCourosel .DoationBasicDetailFormCouroselBody .DBDFProfileinfo .profilePic img {
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide .DoationBasicDetailFormLSideC .DoationBasicDetailFormCourosel .DoationBasicDetailFormCouroselBody .DBDFProfileinfo .NameAndNgoName {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 1em;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide .DoationBasicDetailFormLSideC .DoationBasicDetailFormCourosel .DoationBasicDetailFormCouroselBody .DBDFProfileinfo .NameAndNgoName .profielName h6 {
-    margin: 0;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide .DoationBasicDetailFormLSideC .DoationBasicDetailFormCourosel .DoationBasicDetailFormCouroselBody .DBDFProfileinfo .NameAndNgoName .profielName p {
-    margin: 0;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide {
-    width: 60%;
-    position: relative;
-    top: 0%;
-    left: 40%;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody {
-    min-height: 100vh;
-    display: flex;
-    padding: 2em 0;
-    flex-direction: column;
-    align-items: center;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody label {
-    font-weight: 700;
-    text-shadow: 0px 1px, 1px 0px, 1px 1px;
-    padding-bottom: 0.5em;
-    font-size: 20px;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody input {
-    border-top: none;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 1px solid black;
-    margin: 0;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody input:focus {
-    outline: none;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody h1 {
-    margin: 2em 0 0;
-    text-align: center;
-    width: 55%;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm {
-    margin: 3em 0 0 0;
-    width: 60%;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm form .DBDFinputFields {
-    display: flex;
-    flex-direction: column;
-    margin: 2em 0;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm form .DBDFinputFields .MobileOtpVerifyButton {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm form .DBDFinputFields .MobileOtpVerifyButton input {
-    width: 80%;
-    margin-right: 10px;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm form .DBDFinputFields .DBDFGender {
-    margin: 1em 0 0 0;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm form .DBDFinputFields .DBDFGender input[type=radio] {
-    display: none;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm form .DBDFinputFields .DBDFGender input:checked + .Male {
-    border: solid 1px #000;
-    color: #F00;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm form .DBDFinputFields .DBDFGender input:checked + .Female {
-    border: solid 1px #000;
-    color: green;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm form .DBDFinputFields .DBDFGender input:checked + .Bisexual {
-    border: solid 1px #000;
-    color: green;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm form .DBDFinputFields .DBDFGender label {
-    border: 1px solid black;
-    padding: 10px 64px;
-    border-radius: 10px;
-    margin: 0 2em 0 0;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm form .DBDFinputFields .DBDFGender label:hover {
-    background-color: antiquewhite;
-    cursor: pointer;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm form .DBDFinputFields input::-webkit-outer-spin-button,
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm form .DBDFinputFields input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm form .DBDFSubmitbuttons {
-    margin: 3rem 0 0 0;
-  }
-}
-@media (max-width: 900px) {
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormLSide {
-    display: none;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide {
-    width: 100%;
-    position: relative;
-    left: 0%;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody {
-    min-height: 100vh;
-    display: flex;
-    padding: 1em 0;
-    flex-direction: column;
-    align-items: center;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody h1 {
-    margin: 2em 0 0;
-    text-align: center;
-    width: 90%;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm {
-    margin: 3em 0 0 0;
-    width: 90%;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm form .DBDFinputFields {
-    display: flex;
-    flex-direction: column;
-    margin: 2em 0;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm form .DBDFinputFields .MobileOtpVerifyButton {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm form .DBDFinputFields .MobileOtpVerifyButton input {
-    width: 80%;
-    margin-right: 10px;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm form .DBDFinputFields label {
-    font-weight: 600;
-    padding-bottom: 0.5em;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm form .DBDFinputFields input {
-    border-top: none;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 1px solid black;
-    margin: 0;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm form .DBDFinputFields input:focus {
-    outline: none;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm form .DBDFinputFields input::-webkit-outer-spin-button,
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm form .DBDFinputFields input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  }
-  .DoationBasicDetailFormMContainer .DoationBasicDetailFormContainer .DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm form .DBDFSubmitbuttons {
-    margin: 3rem 0 0 0;
-  }
-}
-.DoationBasicDetailFormRSide {
-  width: 60%;
-  position: relative;
-  top: 0%;
-  left: 40%;
-}
-.DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody label {
-  font-weight: 700;
-  text-shadow: 0px 1px, 1px 0px, 1px 1px;
-  padding-bottom: 0.5em;
-  font-size: 17px;
-}
-.DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody input {
-  border-top: none;
-  border-left: 0;
-  border-right: 0;
-  border-bottom: 1px solid black;
-  margin: 0;
-}
-.DoationBasicDetailFormRSide .DoationBasicDetailFormRSideBody input:focus {
-  outline: none;
 }/*# sourceMappingURL=DonationRegistration.css.map */

@@ -1,0 +1,167 @@
+.DonationSignupFormMainComponants {
+  margin: 68px 0 50px 0;
+  font-family: "Comfortaa", cursive;
+  overflow: hidden;
+}
+.DonationSignupFormMainComponants .DonationSignupFormComponants {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.DonationSignupFormMainComponants .DonationSignupFormComponants .DsFLeftSide {
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  margin: 3em 0;
+}
+.DonationSignupFormMainComponants .DonationSignupFormComponants .DsFLeftSide .DsFLeftSideLogo img {
+  width: 70px;
+}
+.DonationSignupFormMainComponants .DonationSignupFormComponants .DsFLeftSide .DsFleftSideContent {
+  margin: 2em 0;
+}
+.DonationSignupFormMainComponants .DonationSignupFormComponants .DsFLeftSide .DsFleftSideContent h1 {
+  font-weight: 900;
+}
+.DonationSignupFormMainComponants .DonationSignupFormComponants .DsFLeftSide .DsFleftLoginButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.DonationSignupFormMainComponants .DonationSignupFormComponants .DsFLeftSide .DsFleftLoginButtons .DonationLoginButton {
+  border: 1px solid rgb(141, 141, 141);
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px 30px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+.DonationSignupFormMainComponants .DonationSignupFormComponants .DsFLeftSide .DsFleftLoginButtons .DonationLoginButton p {
+  margin: 0 16px;
+}
+.DonationSignupFormMainComponants .DonationSignupFormComponants .DsFLeftSide .DsFleftLoginButtons .DonationLoginButton img {
+  width: 30px;
+  margin: 0 0 0 10px;
+}
+.DonationSignupFormMainComponants .DonationSignupFormComponants .DsFLeftSide .DonationLoginTermAndCondition {
+  margin: 30vh 0 0 0;
+}
+.DonationSignupFormMainComponants .DonationSignupFormComponants .DsFLeftSide .DonationLoginTermAndCondition a {
+  text-decoration: none;
+}
+.DonationSignupFormMainComponants .DonationSignupFormComponants .DsFRightSide {
+  background-color: #FEEA94;
+  width: 60%;
+  min-height: 93vh;
+}
+.DonationSignupFormMainComponants .DonationSignupFormComponants .DsFRightSide .DsFRightSideContent {
+  margin: 1em 0 !important;
+  padding: 3vh 5vh;
+}
+.DonationSignupFormMainComponants .DonationSignupFormComponants .DsFRightSide .DsFRightSideContent h2 {
+  font-weight: 700;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+}
+.DonationSignupFormMainComponants .DonationSignupFormComponants .DsFRightSide .DsFRightSideContent p {
+  color: #246359;
+  letter-spacing: 2px;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+  font-weight: 700;
+  font-size: 24px;
+}
+.DonationSignupFormMainComponants .DonationSignupFormComponants .DsFRightSide .DsFRigthSideContentImage {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.DonationSignupFormMainComponants .DonationSignupFormComponants .DsFRightSide .DsFRigthSideContentImage img {
+  margin: 4vh;
+  top: 0;
+}
+.DonationSignupFormMainComponants .DonationSignupFormComponants .DsFRightSide .TermAndCondition {
+  text-align: center;
+  margin-top: 30px;
+}
+.DonationSignupFormMainComponants .DonationSignupFormComponants .DsFRightSide .TermAndCondition a {
+  text-decoration: none;
+  color: #246359;
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .DonationSignupFormMainComponants {
+    overflow: hidden;
+  }
+  .DonationSignupFormMainComponants .DonationSignupFormComponants {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .DonationSignupFormMainComponants .DonationSignupFormComponants .DsFLeftSide {
+    margin: 5em 0;
+    width: 100%;
+  }
+  .DonationSignupFormMainComponants .DonationSignupFormComponants .DsFLeftSide .DsFleftSideContent {
+    margin: 2em 0;
+  }
+  .DonationSignupFormMainComponants .DonationSignupFormComponants .DsFLeftSide .DsFleftLoginButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .DonationSignupFormMainComponants .DonationSignupFormComponants .DsFLeftSide .DsFleftLoginButtons .DonationLoginButton {
+    border-radius: 10px;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+  }
+  .DonationSignupFormMainComponants .DonationSignupFormComponants .DsFLeftSide .DsFleftLoginButtons .DonationLoginButton p {
+    margin: 0 16px;
+  }
+  .DonationSignupFormMainComponants .DonationSignupFormComponants .DsFLeftSide .DsFleftLoginButtons .DonationLoginButton img {
+    width: 40px;
+    margin: 0 0 0 10px;
+  }
+  .DonationSignupFormMainComponants .DonationSignupFormComponants .DsFLeftSide .DonationLoginTermAndCondition {
+    margin: 30vh 0 0 0;
+  }
+  .DonationSignupFormMainComponants .DonationSignupFormComponants .DsFLeftSide .DonationLoginTermAndCondition a {
+    text-decoration: none;
+  }
+  .DonationSignupFormMainComponants .DonationSignupFormComponants .DsFRightSide {
+    width: 100%;
+    min-height: 65vh;
+  }
+  .DonationSignupFormMainComponants .DonationSignupFormComponants .DsFRightSide .DsFRightSideContent {
+    margin: 7em 0;
+  }
+  .DonationSignupFormMainComponants .DonationSignupFormComponants .DsFRightSide .DsFRigthSideContentImage {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .DonationSignupFormMainComponants .DonationSignupFormComponants .DsFRightSide .DsFRigthSideContentImage img {
+    margin: 4vh;
+    width: 200px;
+    height: 200px;
+    top: 0;
+  }
+  .DonationSignupFormMainComponants .DonationSignupFormComponants .DsFRightSide .TermAndCondition {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .DonationSignupFormMainComponants .DonationSignupFormComponants .DsFRightSide .TermAndCondition a {
+    text-decoration: none;
+  }
+}/*# sourceMappingURL=DonationSignupForm.css.map */

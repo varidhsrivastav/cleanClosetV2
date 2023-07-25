@@ -1,6 +1,5 @@
 .TestimonialsMainContaierHeader {
   margin: 10em 0;
-  font-family: "Comfortaa", cursive;
 }
 .TestimonialsMainContaierHeader .TestimonialsContainer {
   display: flex;
@@ -11,11 +10,6 @@
 .TestimonialsMainContaierHeader .TestimonialsContainer .work {
   width: 100%;
   text-align: center;
-  color: #FF7468 !important;
-}
-.TestimonialsMainContaierHeader .TestimonialsContainer .workh1 {
-  color: #246359;
-  text-shadow: 0px 1px, 1px 0px, 1px 1px;
 }
 .TestimonialsMainContaierHeader .TestimonialsContainer h1 {
   text-align: center;
@@ -75,12 +69,7 @@
   padding: 0;
 }
 
-#cardbody1 {
-  background-color: #E9F5F3;
-}
-
 #cardbody2 {
-  background-color: #FFF0EF;
   color: #000000;
 }
 

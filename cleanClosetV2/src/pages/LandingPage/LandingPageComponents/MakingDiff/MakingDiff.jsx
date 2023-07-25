@@ -11,7 +11,7 @@ const MakingDiff = () => {
         </div>
         <div className="MakingDiffContent"  data-aos="fade-up-left">
           <h6>Making Difference</h6>
-          <h1>How were making a difference</h1>
+          <h1 className="my-2 text-3xl">How were making a difference</h1>
           <p>
             Many charitable organizations rely on donated clothes to fund their
             programs and services. By donating clothes, you can help these
@@ -24,7 +24,7 @@ const MakingDiff = () => {
                 <i className="fi fi-sr-recycle"></i>
               </div>
               <div className="MakingDiffICBodyContent">
-                <b>Reducing waste:</b> Donating clothes instead of throwing them
+                <b className="text-xl font-extrabold" >Reducing waste:</b> Donating clothes instead of throwing them
                 away can help reduce waste in landfills and prevent
                 environmental damage. Clothes that are still in good condition
                 can be reused, reducing the demand for new clothes and the
@@ -36,7 +36,7 @@ const MakingDiff = () => {
                 <i className="fi fi-sr-star"></i>
               </div>
               <div className="MakingDiffICBodyContent">
-                <b> Providing basic necessities:</b> By donating clothes, you
+                <b className="text-xl font-extrabold"> Providing basic necessities:</b> By donating clothes, you
                 can help individuals who cannot afford to purchase new clothing,
                 especially in low-income communities. Clothing is a basic
                 necessity that everyone needs, and donating gently used or new
@@ -53,7 +53,7 @@ const MakingDiff = () => {
           <div className="MakingDiffButton">
             <div className="MakingDiffButtonbtn">
             <a href="/DonorLandingPage">
-              <button className="button-18" >
+              <button className="button-40 my-3" >
                 Donate Now
               </button>
             </a>

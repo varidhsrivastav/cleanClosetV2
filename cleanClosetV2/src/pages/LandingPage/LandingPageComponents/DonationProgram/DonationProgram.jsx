@@ -7,82 +7,15 @@ const DonationProgram = () => {
     <div className="DonationProgramMainContainer">
       <div className="DonationProgramContainer container">
         <h6>Featured Donations</h6>
-        <h1>Some Urgent Donation Program</h1>
+        <h1 className="text-4xl font-bold">Some Urgent Donation Program</h1>
         <div className="DonationProgramCardContainer">
-          <div className="DonationProgramCardBody" data-aos="flip-up">
+        <div className="DonationProgramCardBody" data-aos="flip-up">
             <div className="DonationProgramCardImage">
             <img src={donationimage2} alt="" />
             </div>
             <div className="DonationProgramCardContent">
-              <h4>Help orphans to live happily</h4>
-              <p>
-              Share a little, give a lot - donate clothes to help an orphans heart!
-              </p>
-              <div className="DonationProgramCardProgressBar">
-                <div className="progress">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    style={{ width: "95%" }}
-                    aria-valuenow="95"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
-                    95%
-                  </div>
-                </div>
-                <h6>Target: 10 Kg</h6>
-              </div>
-              <div className="DonateNowButton">
-              <a href="/DonorLandingPage">
-                <button className="button-18">
-                  <span className="text">Donate now</span>
-                </button>
-              </a>
-              </div>
-            </div>
-          </div>
-          <div className="DonationProgramCardBody" data-aos="flip-up">
-            <div className="DonationProgramCardImage">
-              <img src={donationimage2} alt="" />
-            </div>
-            <div className="DonationProgramCardContent">
-              <h4>Help orphans to live happily</h4>
-              <p>
-              Your old clothes, their new hope - donate today to help orphans cope!
-              </p>
-              <div className="DonationProgramCardProgressBar">
-                <div className="progress">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    style={{ width: "25%" }}
-                    aria-valuenow="25"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
-                    25%
-                  </div>
-                </div>
-                <h6>Target: 20kg</h6>
-               
-              </div>
-              <div className="DonateNowButton">
-              <a href="/DonorLandingPage">
-                <button className="button-18">
-                  <span className="text">Donate now</span>
-                </button>
-              </a>
-              </div>
-            </div>
-          </div>
-          <div className="DonationProgramCardBody" data-aos="flip-up">
-            <div className="DonationProgramCardImage">
-            <img src={donationimage2} alt="" />
-            </div>
-            <div className="DonationProgramCardContent">
-              <h4>Help OldAge to live happily</h4>
-              <p>
+              <h4 className="text-lg font-extrabold m-2 ">Help OldAge to live happily</h4>
+              <p className="mb-2">
               Dont let their smiles fade away - donate clothes and make their day!
               </p>
               <div className="DonationProgramCardProgressBar">
@@ -102,8 +35,74 @@ const DonationProgram = () => {
               </div>
               <div className="DonateNowButton">
               <a href="/DonorLandingPage">
-                <button className="button-18">
-                  <span className="text">Donate now</span>
+                <button className="mt-4">
+                  <span className="text button-40 mt-2">Donate now</span>
+                </button>
+              </a>
+              </div>
+            </div>
+          </div>
+          <div className="DonationProgramCardBody" data-aos="flip-up">
+            <div className="DonationProgramCardImage">
+            <img src={donationimage2} alt="" />
+            </div>
+            <div className="DonationProgramCardContent">
+              <h4 className="text-lg font-extrabold m-2 ">Help OldAge to live happily</h4>
+              <p className="mb-2">
+              Dont let their smiles fade away - donate clothes and make their day!
+              </p>
+              <div className="DonationProgramCardProgressBar">
+                <div className="progress">
+                  <div
+                    className="progress-bar"
+                    role="progressbar"
+                    style={{ width: "65%" }}
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    65%
+                  </div>
+                </div>
+                <h6>Target: 50Kg</h6>
+              </div>
+              <div className="DonateNowButton">
+              <a href="/DonorLandingPage">
+                <button className="mt-4">
+                  <span className="text button-40 mt-2">Donate now</span>
+                </button>
+              </a>
+              </div>
+            </div>
+          </div>
+          <div className="DonationProgramCardBody" data-aos="flip-up">
+            <div className="DonationProgramCardImage">
+            <img src={donationimage2} alt="" />
+            </div>
+            <div className="DonationProgramCardContent">
+              <h4 className="text-lg font-extrabold m-2 ">Help OldAge to live happily</h4>
+              <p className="mb-2">
+              Dont let their smiles fade away - donate clothes and make their day!
+              </p>
+              <div className="DonationProgramCardProgressBar">
+                <div className="progress">
+                  <div
+                    className="progress-bar"
+                    role="progressbar"
+                    style={{ width: "65%" }}
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    65%
+                  </div>
+                </div>
+                <h6>Target: 50Kg</h6>
+              </div>
+              <div className="DonateNowButton">
+              <a href="/DonorLandingPage">
+                <button className="mt-4">
+                  <span className="text button-40 mt-2">Donate now</span>
                 </button>
               </a>
               </div>

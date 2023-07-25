@@ -5,88 +5,129 @@
     font-family: $ComfertaFont;
 
     .DoationBasicDetailFormContainer {
-        .DoationBasicDetailFormLSide {
-            width: 40%;
-            position: fixed;
-            min-height: 95vh;
-            background-color: #FEEA94;
+        // .DoationBasicDetailFormLSide {
+        //     width: 40%;
+        //     position: fixed;
+        //     min-height: 95vh;
+        //     background-color: #FEEA94;
 
-            .DoationBasicDetailFormLSideC {
-                padding: 2rem;
+        //     .DoationBasicDetailFormLSideC {
+        //         padding: 2rem;
 
-                .DoationBasicDetailFormLogo {
-                    img {
-                        width: 70px;
-                    }
+        //         .DoationBasicDetailFormLogo {
+        //             img {
+        //                 width: 70px;
+        //             }
+        //         }
+
+        //         .DoationBasicDetailFormIntroContent {
+        //             min-height: 60vh;
+        //             display: flex;
+        //             flex-direction: column;
+        //             justify-content: center;
+        //             padding: 1rem;
+
+        //             h1 {
+        //                 font-size: 64px;
+        //                 width: 100%;
+        //                 // letter-spacing:2px;
+        //                 text-shadow: 0px 1px, 1px 0px, 1px 1px;
+        //             }
+
+        //             p {
+        //                 width: 70%;
+        //             }
+        //         }
+
+        //         .DoationBasicDetailFormCourosel {
+        //             .swiper {
+        //                 width: 80%;
+        //             }
+
+        //             .DoationBasicDetailFormCouroselBody {
+        //                 display: flex;
+        //                 width: 100%;
+        //                 flex-direction: column;
+        //                 border-radius: 10px;
+        //                 background-color: #6CABA3;
+        //                 padding: 1em;
+
+        //                 p {
+        //                     margin: 0;
+        //                 }
+
+        //                 .DBDFProfileinfo {
+        //                     display: flex;
+        //                     margin: .8em 0;
+
+        //                     .profilePic {
+        //                         img {
+        //                             width: 50px;
+        //                             height: 50px;
+        //                             border-radius: 10px;
+        //                         }
+        //                     }
+
+        //                     .NameAndNgoName {
+        //                         display: flex;
+        //                         flex-direction: column;
+        //                         justify-content: center;
+        //                         margin: 0 1em;
+
+        //                         .profielName {
+        //                             h6 {
+        //                                 margin: 0;
+        //                                 font-weight: 700;
+        //                             }
+
+        //                             p {
+        //                                 margin: 0;
+        //                             }
+        //                         }
+        //                     }
+        //                 }
+        //             }
+        //         }
+        //     }
+        // }
+        .DsFRightSide {
+            // background-color: #FEEA94;
+            // width: 60%;
+            min-height: 93vh;
+            .DsFRightSideContent {
+                margin: 1em 0 !important;
+                padding: 3vh 5vh;
+                h2 {
+                    font-weight: 700;
+                    // letter-spacing:2px;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
                 }
-
-                .DoationBasicDetailFormIntroContent {
-                    min-height: 60vh;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    padding: 1rem;
-
-                    h1 {
-                        font-size: 64px;
-                        width: 100%;
-                        // letter-spacing:2px;
-                        text-shadow: 0px 1px, 1px 0px, 1px 1px;
-                    }
-
-                    p {
-                        width: 70%;
-                    }
+                p{
+                    color: #246359;
+                    letter-spacing:2px;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+                    font-weight: 700;
+                    font-size: 24px;
                 }
+            }
+            .DsFRigthSideContentImage {
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                img {
+                    margin: 4vh;
+                    top: 0;
+                }
+            }
+            .TermAndCondition{
+                text-align: center;
+                margin-top: 30px;
+                a{
+                    text-decoration: none;
+                    color: #246359;
+                    font-weight: 700;
 
-                .DoationBasicDetailFormCourosel {
-                    .swiper {
-                        width: 80%;
-                    }
-
-                    .DoationBasicDetailFormCouroselBody {
-                        display: flex;
-                        width: 100%;
-                        flex-direction: column;
-                        border-radius: 10px;
-                        background-color: #6CABA3;
-                        padding: 1em;
-
-                        p {
-                            margin: 0;
-                        }
-
-                        .DBDFProfileinfo {
-                            display: flex;
-                            margin: .8em 0;
-
-                            .profilePic {
-                                img {
-                                    width: 50px;
-                                    height: 50px;
-                                    border-radius: 10px;
-                                }
-                            }
-
-                            .NameAndNgoName {
-                                display: flex;
-                                flex-direction: column;
-                                justify-content: center;
-                                margin: 0 1em;
-
-                                .profielName {
-                                    h6 {
-                                        margin: 0;
-                                        font-weight: 700;
-                                    }
-
-                                    p {
-                                        margin: 0;
-                                    }
-                                }
-                            }
-                        }
-                    }
+                    
                 }
             }
         }
@@ -94,8 +135,8 @@
         .DoationBasicDetailFormRSide {
             width: 60%;
             position: relative;
-            top: 0%;
-            left: 40%;
+            // top: 0%;
+            // left: 20%;
 
             .DoationBasicDetailFormRSideBody {
                 min-height: 100vh;
@@ -112,7 +153,7 @@
 
                 .DoationBasicDetailFormRSideForm {
                     margin: 3em 0 0 0;
-                    width: 60%;
+                    // width: 60%;
 
 
                     .DBDFinputFields {
@@ -210,303 +251,305 @@
 }
 
 
-@media(max-width:1400px) {
-    .DoationBasicDetailFormMContainer {
-        .DoationBasicDetailFormContainer {
-            .DoationBasicDetailFormLSide {
-                .DoationBasicDetailFormLSideC {
-                    .DoationBasicDetailFormIntroContent {
-                        min-height: 50vh;
+// @media(max-width:1400px) {
+//     .DoationBasicDetailFormMContainer {
+//         .DoationBasicDetailFormContainer {
+//             .DoationBasicDetailFormLSide {
+//                 .DoationBasicDetailFormLSideC {
+//                     .DoationBasicDetailFormIntroContent {
+//                         min-height: 50vh;
 
-                        h1 {
-                            font-size: 48px;
-                            width: 100%;
-                            // letter-spacing:2px;
-                            text-shadow: 0px 1px, 1px 0px, 1px 1px;
-                        }
+//                         h1 {
+//                             font-size: 48px;
+//                             width: 100%;
+//                             // letter-spacing:2px;
+//                             text-shadow: 0px 1px, 1px 0px, 1px 1px;
+//                         }
 
-                        p {
-                            width: 70%;
-                        }
-                    }
+//                         p {
+//                             width: 70%;
+//                         }
+//                     }
 
-                    .DoationBasicDetailFormCourosel {
-                        .swiper {
-                            width: 80%;
-                        }
+//                     .DoationBasicDetailFormCourosel {
+//                         .swiper {
+//                             width: 80%;
+//                         }
 
-                        .DoationBasicDetailFormCouroselBody {
-                            display: flex;
-                            width: 100%;
-                            flex-direction: column;
-                            border-radius: 10px;
-                            background-color: #6CABA3;
-                            padding: 1em;
+//                         .DoationBasicDetailFormCouroselBody {
+//                             display: flex;
+//                             width: 100%;
+//                             flex-direction: column;
+//                             border-radius: 10px;
+//                             background-color: #6CABA3;
+//                             padding: 1em;
 
-                            p {
-                                margin: 0;
-                            }
+//                             p {
+//                                 margin: 0;
+//                             }
 
-                            .DBDFProfileinfo {
-                                display: flex;
-                                margin: .8em 0;
+//                             .DBDFProfileinfo {
+//                                 display: flex;
+//                                 margin: .8em 0;
 
-                                .profilePic {
-                                    img {
-                                        width: 50px;
-                                        height: 50px;
-                                        border-radius: 10px;
-                                    }
-                                }
+//                                 .profilePic {
+//                                     img {
+//                                         width: 50px;
+//                                         height: 50px;
+//                                         border-radius: 10px;
+//                                     }
+//                                 }
 
-                                .NameAndNgoName {
-                                    display: flex;
-                                    flex-direction: column;
-                                    justify-content: center;
-                                    margin: 0 1em;
+//                                 .NameAndNgoName {
+//                                     display: flex;
+//                                     flex-direction: column;
+//                                     justify-content: center;
+//                                     margin: 0 1em;
 
-                                    .profielName {
-                                        h6 {
-                                            margin: 0;
-                                        }
+//                                     .profielName {
+//                                         h6 {
+//                                             margin: 0;
+//                                         }
 
-                                        p {
-                                            margin: 0;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
+//                                         p {
+//                                             margin: 0;
+//                                         }
+//                                     }
+//                                 }
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
 
-            .DoationBasicDetailFormRSide {
-                width: 60%;
-                position: relative;
-                top: 0%;
-                left: 40%;
+//             .DoationBasicDetailFormRSide {
+//                 width: 60%;
+//                 position: relative;
+//                 top: 0%;
+//                 left: 40%;
 
-                .DoationBasicDetailFormRSideBody {
-                    label {
-                        font-weight: 700;
-                        text-shadow: 0px 1px, 1px 0px, 1px 1px;
-                        padding-bottom: .5em;
-                        font-size: 20px;
-                    }
+//                 .DoationBasicDetailFormRSideBody {
+//                     label {
+//                         font-weight: 700;
+//                         text-shadow: 0px 1px, 1px 0px, 1px 1px;
+//                         padding-bottom: .5em;
+//                         font-size: 20px;
+//                     }
 
-                    input {
-                        border-top: none;
-                        border-left: 0;
-                        border-right: 0;
-                        border-bottom: 1px solid black;
+//                     input {
+//                         border-top: none;
+//                         border-left: 0;
+//                         border-right: 0;
+//                         border-bottom: 1px solid black;
 
-                        margin: 0;
+//                         margin: 0;
 
-                        &:focus {
-                            outline: none;
-                        }
-                    }
+//                         &:focus {
+//                             outline: none;
+//                         }
+//                     }
 
-                    min-height: 100vh;
-                    display: flex;
-                    padding: 2em 0;
-                    flex-direction: column;
-                    align-items: center;
+//                     min-height: 100vh;
+//                     display: flex;
+//                     padding: 2em 0;
+//                     flex-direction: column;
+//                     align-items: center;
 
-                    h1 {
-                        margin: 2em 0 0;
-                        text-align: center;
-                        width: 55%;
-                    }
+//                     h1 {
+//                         margin: 2em 0 0;
+//                         text-align: center;
+//                         width: 55%;
+//                     }
 
-                    .DoationBasicDetailFormRSideForm {
-                        margin: 3em 0 0 0;
-                        width: 60%;
+//                     .DoationBasicDetailFormRSideForm {
+//                         margin: 3em 0 0 0;
+//                         width: 60%;
 
-                        form {
-                            .DBDFinputFields {
-                                display: flex;
-                                flex-direction: column;
-                                margin: 2em 0;
+//                         form {
+//                             .DBDFinputFields {
+//                                 display: flex;
+//                                 flex-direction: column;
+//                                 margin: 2em 0;
 
-                                .MobileOtpVerifyButton {
-                                    width: 100%;
-                                    display: flex;
-                                    flex-direction: row;
+//                                 .MobileOtpVerifyButton {
+//                                     width: 100%;
+//                                     display: flex;
+//                                     flex-direction: row;
 
-                                    input {
-                                        width: 80%;
-                                        margin-right: 10px;
-                                    }
-                                }
-
-
-
-                                .DBDFGender {
-                                    margin: 1em 0 0 0;
-
-                                    input[type=radio] {
-                                        display: none;
-                                    }
-
-                                    input:checked+.Male {
-                                        border: solid 1px #000;
-                                        color: #F00;
-                                    }
-
-                                    input:checked+.Female {
-                                        border: solid 1px #000;
-                                        color: green;
-                                    }
-
-                                    input:checked+.Bisexual {
-                                        border: solid 1px #000;
-                                        color: green;
-                                    }
-
-                                    label {
-                                        border: 1px solid black;
-                                        padding: 10px 64px;
-                                        border-radius: 10px;
-                                        margin: 0 2em 0 0;
-
-                                        &:hover {
-                                            background-color: antiquewhite;
-                                            cursor: pointer;
-                                        }
-                                    }
+//                                     input {
+//                                         width: 80%;
+//                                         margin-right: 10px;
+//                                     }
+//                                 }
 
 
-                                }
 
-                                input::-webkit-outer-spin-button,
-                                input::-webkit-inner-spin-button {
-                                    -webkit-appearance: none;
-                                    margin: 0;
-                                }
-                            }
+//                                 .DBDFGender {
+//                                     margin: 1em 0 0 0;
 
-                            .DBDFSubmitbuttons {
-                                margin: 3rem 0 0 0;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
+//                                     input[type=radio] {
+//                                         display: none;
+//                                     }
 
-@media (max-width:900px) {
-    .DoationBasicDetailFormMContainer {
-        .DoationBasicDetailFormContainer {
+//                                     input:checked+.Male {
+//                                         border: solid 1px #000;
+//                                         color: #F00;
+//                                     }
 
-            .DoationBasicDetailFormLSide {
-                display: none;
-                // position: ;
-            }
+//                                     input:checked+.Female {
+//                                         border: solid 1px #000;
+//                                         color: green;
+//                                     }
 
-            .DoationBasicDetailFormRSide {
-                width: 100%;
-                position: relative;
-                left: 0%;
+//                                     input:checked+.Bisexual {
+//                                         border: solid 1px #000;
+//                                         color: green;
+//                                     }
 
-                .DoationBasicDetailFormRSideBody {
-                    min-height: 100vh;
-                    display: flex;
-                    padding: 1em 0;
-                    flex-direction: column;
-                    align-items: center;
+//                                     label {
+//                                         border: 1px solid black;
+//                                         padding: 10px 64px;
+//                                         border-radius: 10px;
+//                                         margin: 0 2em 0 0;
 
-                    h1 {
-                        margin: 2em 0 0;
-                        text-align: center;
-                        width: 90%;
-                    }
+//                                         &:hover {
+//                                             background-color: antiquewhite;
+//                                             cursor: pointer;
+//                                         }
+//                                     }
 
-                    .DoationBasicDetailFormRSideForm {
-                        margin: 3em 0 0 0;
-                        width: 90%;
 
-                        form {
-                            .DBDFinputFields {
-                                display: flex;
-                                flex-direction: column;
-                                margin: 2em 0;
+//                                 }
 
-                                .MobileOtpVerifyButton {
-                                    width: 100%;
-                                    display: flex;
-                                    flex-direction: row;
+//                                 input::-webkit-outer-spin-button,
+//                                 input::-webkit-inner-spin-button {
+//                                     -webkit-appearance: none;
+//                                     margin: 0;
+//                                 }
+//                             }
 
-                                    input {
-                                        width: 80%;
-                                        margin-right: 10px;
-                                    }
-                                }
+//                             .DBDFSubmitbuttons {
+//                                 margin: 3rem 0 0 0;
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
 
-                                label {
-                                    font-weight: 600;
-                                    padding-bottom: .5em;
-                                }
+// @media (max-width:900px) {
+//     .DoationBasicDetailFormMContainer {
+//         .DoationBasicDetailFormContainer {
 
-                                input {
-                                    border-top: none;
-                                    border-left: 0;
-                                    border-right: 0;
-                                    border-bottom: 1px solid black;
-                                    // appearance: none;
-                                    margin: 0;
+//             .DoationBasicDetailFormLSide {
+//                 display: none;
+//                 // position: ;
+//             }
 
-                                    &:focus {
-                                        outline: none;
-                                    }
-                                }
+//             .DoationBasicDetailFormRSide {
+//                 width: 100%;
+//                 position: relative;
+//                 left: 0%;
 
-                                input::-webkit-outer-spin-button,
-                                input::-webkit-inner-spin-button {
-                                    -webkit-appearance: none;
-                                    margin: 0;
-                                }
-                            }
+//                 .DoationBasicDetailFormRSideBody {
+//                     min-height: 100vh;
+//                     display: flex;
+//                     padding: 1em 0;
+//                     flex-direction: column;
+//                     align-items: center;
 
-                            .DBDFSubmitbuttons {
-                                margin: 3rem 0 0 0;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
+//                     h1 {
+//                         margin: 2em 0 0;
+//                         text-align: center;
+//                         width: 90%;
+//                     }
 
-.DoationBasicDetailFormRSide {
-    width: 60%;
-    position: relative;
-    top: 0%;
-    left: 40%;
+//                     .DoationBasicDetailFormRSideForm {
+//                         margin: 3em 0 0 0;
+//                         width: 90%;
 
-    .DoationBasicDetailFormRSideBody {
-        label {
-            font-weight: 700;
-            text-shadow: 0px 1px, 1px 0px, 1px 1px;
-            padding-bottom: .5em;
-            font-size: 17px;
-        }
+//                         form {
+//                             .DBDFinputFields {
+//                                 display: flex;
+//                                 flex-direction: column;
+//                                 margin: 2em 0;
 
-        input {
-            border-top: none;
-            border-left: 0;
-            border-right: 0;
-            border-bottom: 1px solid black;
+//                                 .MobileOtpVerifyButton {
+//                                     width: 100%;
+//                                     display: flex;
+//                                     flex-direction: row;
 
-            margin: 0;
+//                                     input {
+//                                         width: 80%;
+//                                         margin-right: 10px;
+//                                     }
+//                                 }
 
-            &:focus {
-                outline: none;
-            }
-        }
-    }
-}
+//                                 label {
+//                                     font-weight: 600;
+//                                     padding-bottom: .5em;
+//                                 }
+
+//                                 input {
+//                                     border-top: none;
+//                                     border-left: 0;
+//                                     border-right: 0;
+//                                     border-bottom: 1px solid black;
+//                                     // appearance: none;
+//                                     margin: 0;
+
+//                                     &:focus {
+//                                         outline: none;
+//                                     }
+//                                 }
+
+//                                 input::-webkit-outer-spin-button,
+//                                 input::-webkit-inner-spin-button {
+//                                     -webkit-appearance: none;
+//                                     margin: 0;
+//                                 }
+//                             }
+
+//                             .DBDFSubmitbuttons {
+//                                 margin: 3rem 0 0 0;
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// .DoationBasicDetailFormRSide {
+//     width: 60%;
+//     position: relative;
+//     top: 0%;
+//     left: 40%;
+
+//     .DoationBasicDetailFormRSideBody {
+//         label {
+//             font-weight: 700;
+//             text-shadow: 0px 1px, 1px 0px, 1px 1px;
+//             padding-bottom: .5em;
+//             font-size: 17px;
+//         }
+
+//         input {
+//             border-top: none;
+//             border-left: 0;
+//             border-right: 0;
+//             border-bottom: 1px solid black;
+
+//             margin: 0;
+
+//             &:focus {
+//                 outline: none;
+//             }
+//         }
+//     }
+// }
+
+

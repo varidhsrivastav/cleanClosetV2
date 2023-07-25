@@ -1,3 +1,6 @@
+.DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm {
+  width: 70%;
+}
 .DoationBasicDetailFormRSideBody .DoationBasicDetailFormRSideForm .DBDFinputFields .DBDFinputFieldsRadio label {
   text-align: center;
   padding: 10px 5px;

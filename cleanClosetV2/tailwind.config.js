@@ -12,9 +12,12 @@ export default {
       },
       colors: {
         'heroPagebg': '#E9F5F3',
-        'rrrpage': '#5DADAB',
+        'rrrpage': '#246359',
         'ngoback' : '#E4E0DD',
         "dark-purple": "#5DADAB",
+        "orageBack": "#e1a692",
+        "orangePrimary": "#FF7468",
+        "darkgrey":"#2F2F2F",
         "light-white": "rgba(255,255,255,0.17)",
       },
       height: {

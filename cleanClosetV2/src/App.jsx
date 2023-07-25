@@ -18,6 +18,7 @@ import DonationDashbaord from "./pages/DonorModule/DonationDashboard/DonationDas
 import Footer from "./pages/GlobalPages/Footer/Footer";
 import NgoTimeline from "./pages/NGOmodule/AddNgoForm/NgoTimeline/NgoTimeline";
 import Admin from "./pages/AdminDashboard/Admin";
+import DonationSignupForm from "./pages/DonorModule/DonationSignInForm/DonationSignupForm";
 
 // import Navbar from "./pages/GlobalPages/Navbar/Navbar";
 function App() {
@@ -59,6 +60,8 @@ function App() {
           <Route path="*" element={<ErrorPage />} />
           <Route path="/ngo/timeline" element={<NgoTimeline/>} />
           <Route path="/admin/Dashboard" element={<Admin/>} />
+          <Route path="/sign" element={ <DonationSignupForm/>} />
+         
           
           
         </Routes>

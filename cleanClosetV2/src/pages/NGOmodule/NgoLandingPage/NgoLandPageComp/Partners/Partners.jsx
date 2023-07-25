@@ -15,11 +15,11 @@ import udaan from "./Image/udaan-new-logo-big.png";
 // import stackedwave from "./Image/stacked-waves-haikei.png";
 const Partners = () => {
   return (
-    <div className="ParterMainContainer bg-white">
+    <div className="ParterMainContainer">
 
           {/* <h1>Trusted By</h1> */}
       <div className="PartnerContainer container">
-      <h1 className="text-center font-semibold text-2xl pb-6 ">Powering modern people ops teams around the world</h1>
+      <h1 className="text-center font-bold text-2xl pb-6 ">Powering modern people ops teams around the world</h1>
       {/* <h6>Trusted by the best NGOs</h6> */}
         <div className="CompaniesLogo">
 

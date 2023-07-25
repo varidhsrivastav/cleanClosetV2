@@ -6,7 +6,7 @@ import WhyCC from "./NgoLandPageComp/WhyCleanCloset/WhyCC"
 
 const NgoLandPage = () => {
   return (
-    <div className=" bg-ngoback">
+    <div className=" ">
       <NgoHeroPage/>
       <Partners/>
       <WhyCC/>
