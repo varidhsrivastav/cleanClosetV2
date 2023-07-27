@@ -6,12 +6,10 @@ import buddha from "./Image/buddha.png";
 // import logo from "./Image/login.png";
 const AddNgoForm = () => {
   const [user, setUser] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    work: "",
-    password: "",
-    cpassword: "",
+    ngoname:"",
+        ngoType:"",
+        NgoAddress:"",
+        ngodescription:"",
   });
   let name, value;
   const handleInput = (e)=>{
@@ -22,14 +20,20 @@ const AddNgoForm = () => {
   }
   const PostData = async (e) => {
     e.preventDefault();
-    const { name, email, phone, work, password, cpassword } = user;
+    const { ngoname,
+        ngoType,
+        NgoAddress,
+        ngodescription } = user;
     const res = await fetch("http://localhost:5002/registerAdmin", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        name, email, phone, work, password, cpassword
+        ngoname,
+        ngoType,
+        NgoAddress,
+        ngodescription
       }),
     });
     const data = await res.json();
