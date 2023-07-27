@@ -77,7 +77,7 @@ const DonationOrderUpdate = () => {
                     </div>
                     <div className="DonationOrderUpdateOrderContentTrack">
                        <p> Track shipment history</p>
-                       <img src={trackinglink} alt="" />
+                       <img src={trackinglink} alt="" className='tracklost' />
                     </div>
             </div>
         </div>

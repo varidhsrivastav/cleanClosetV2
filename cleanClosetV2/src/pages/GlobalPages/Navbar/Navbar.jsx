@@ -2,8 +2,10 @@
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import logo from "./Image/cleanclosethighLogo.png";
+import { useAuth0 } from "@auth0/auth0-react";
 
 export const Navbar = () => {
+  const { user, isAuthenticated, isLoading, logout, loginWithRedirect } = useAuth0();
   var openNav = () => {
     var lastScrollTop = 0;
     var navbar = document.getElementById("navbar");
@@ -67,6 +69,15 @@ export const Navbar = () => {
                   <span data-hover="contact">Contact</span>
                 </Link>
               </li>
+              <li className="nav-item">
+              {
+              (isAuthenticated &&
+              <Link to="/donor/dash">
+                Dashboard
+              </Link>
+              )
+              }
+              </li>
             </ul>
 
             <ul className="navbar-nav ml-lg-5">
@@ -75,6 +86,9 @@ export const Navbar = () => {
                     Add Ngo
                   </button>
               </Link>
+              {!isAuthenticated ? <button  className="button-40" onClick={() => loginWithRedirect(window.location.origin === "/DonorLandingPage/timeline/signup/reg")}>Log in</button>:<button  className="button-40" onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
+      Log Out
+    </button>}
             </ul>
           </div>
         </div>

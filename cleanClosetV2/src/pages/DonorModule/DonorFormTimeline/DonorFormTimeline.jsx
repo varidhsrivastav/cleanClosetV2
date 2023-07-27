@@ -8,8 +8,11 @@ import registrationForm from "./Image/registration-form.png";
 import rightArrow from "./Image/right-arrow.png";
 import user from "./Image/user.png";
 import { Link } from "react-router-dom";
+import { useAuth0 } from "@auth0/auth0-react";
 
 const DonorFormTimeline = () => {
+  const { user, isAuthenticated, isLoading, logout, loginWithRedirect } =
+    useAuth0();
   return (
     <div className="DonationTimelineContentMainComponants">
       <div className="DotiButtonBack">
@@ -88,9 +91,29 @@ const DonorFormTimeline = () => {
             </div>
           </div>
           <div className="DotiButton">
-            <Link to="/donor/timeline/reg">
-              <button className="DonateButton">Continue</button>
-            </Link>
+            {!isAuthenticated ? (
+              <button
+                className="button-40"
+                onClick={() =>
+                  loginWithRedirect(
+                    window.location.origin ===
+                      "/donor/timeline/reg"
+                  )
+                }
+              >
+                Log in
+              </button>
+            ) : (
+              <Link to={"/donor/timeline/reg"}>
+
+              <button
+                className="button-40"
+                
+              >
+                Continue
+              </button>
+              </Link>
+            )}
           </div>
         </div>
       </div>

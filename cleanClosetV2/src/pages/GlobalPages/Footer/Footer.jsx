@@ -4,6 +4,7 @@ import call from "./FooterComponants/img/call.png";
 import email from "./FooterComponants/img/message.png";
 import footerImage from "./image/myProfileFooter_4e9fe2.png";
 import logo from "./image/cleanclosethighLogo.png";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="FooterMainContainer pt-10">
@@ -38,9 +39,12 @@ const Footer = () => {
               </a>
             </div>
             <div className="FooterMainSectionNavigationBotton">
+            <Link to="/ngo">
+
               <button className="DonateButton" role="button">
                 Add Ngo
               </button>
+            </Link>
             </div>
           </div>
           <div className="CleanClosetSummeryFooter">

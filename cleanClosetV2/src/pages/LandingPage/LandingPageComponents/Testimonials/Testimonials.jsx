@@ -18,7 +18,7 @@ const Testimonials = () => {
         </p>
 
         <div className="TestimonialsContainerCardContainer">
-          <div className="TestimonialsContainerCardBody bg-cyan-500" id="cardbody1" data-aos="flip-down" >
+          <div className="TestimonialsContainerCardBody bg-orageBack" id="cardbody1" data-aos="flip-down" >
             <div className="TestimonialsContainerCardBodyImage">
               <img src={man} alt="" />
             </div>
@@ -41,7 +41,7 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="TestimonialsContainerCardBody" id="cardbody2" data-aos="flip-down">
+          <div className="TestimonialsContainerCardBody bg-heroPagebg" id="cardbody2" data-aos="flip-down">
             <div className="TestimonialsContainerCardBodyImage">
               <img src={man} alt="" />
             </div>

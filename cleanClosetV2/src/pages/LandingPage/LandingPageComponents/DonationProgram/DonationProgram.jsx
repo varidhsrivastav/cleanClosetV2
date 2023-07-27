@@ -1,5 +1,6 @@
 // import React from "react";
 // import { a } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./DonationProgram.css";
 import donationimage2 from "./image/download.jpeg"
 const DonationProgram = () => {
@@ -34,11 +35,12 @@ const DonationProgram = () => {
                 <h6>Target: 50Kg</h6>
               </div>
               <div className="DonateNowButton">
-              <a href="/DonorLandingPage">
+            
+              <Link to="/donor">
                 <button className="mt-4">
                   <span className="text button-40 mt-2">Donate now</span>
                 </button>
-              </a>
+              </Link>
               </div>
             </div>
           </div>
@@ -67,11 +69,11 @@ const DonationProgram = () => {
                 <h6>Target: 50Kg</h6>
               </div>
               <div className="DonateNowButton">
-              <a href="/DonorLandingPage">
+              <Link to="/donor">
                 <button className="mt-4">
                   <span className="text button-40 mt-2">Donate now</span>
                 </button>
-              </a>
+              </Link>
               </div>
             </div>
           </div>
@@ -100,11 +102,11 @@ const DonationProgram = () => {
                 <h6>Target: 50Kg</h6>
               </div>
               <div className="DonateNowButton">
-              <a href="/DonorLandingPage">
+              <Link to="/donor">
                 <button className="mt-4">
                   <span className="text button-40 mt-2">Donate now</span>
                 </button>
-              </a>
+              </Link>
               </div>
             </div>
           </div>

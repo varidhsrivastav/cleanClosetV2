@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const NgoFooter = () => {
   return (
     <div className=" pt-20 pb-20  ">
@@ -8,7 +10,10 @@ const NgoFooter = () => {
           </span>
         </div>
         <div className="mt-5 ">
+        <Link to="/ngo/timeline">
+
           <button className="button-40 bg-red-400">Try CleanCloset Now</button>
+        </Link>
         </div>
         {/* <hr className="text-white font-bold mt-20" /> */}
       </div>

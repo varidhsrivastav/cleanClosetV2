@@ -12,7 +12,7 @@ const NgoTimeline = () => {
     return (
         <div className="DonationTimelineContentMainComponants">
           <div className="DotiButtonBack">
-          <Link to="/DonorLandingPage">
+          <Link to="/ngo">
               <img src={left} alt="" />
           </Link>
           </div>
@@ -88,7 +88,7 @@ const NgoTimeline = () => {
                 </div>
               </div>
               <div className="DotiButton">
-              <Link to="/DonorLandingPage/timeline/signup">
+              <Link to="/ngo/timeline/reg">
                 
                 <button className="DonateButton">
                   Continue

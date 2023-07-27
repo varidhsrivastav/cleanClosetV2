@@ -11,14 +11,16 @@ import NgoMdoule from "./pages/NGOmodule/NgoMdoule";
 import Navbar from "./pages/GlobalPages/Navbar/Navbar";
 import DonationLandingPage from "./pages/DonorModule/DonationLandingPage/DonationLandingPage";
 import DonorFormTimeline from "./pages/DonorModule/DonorFormTimeline/DonorFormTimeline";
-import DonationRegistration from "./pages/DonorModule/DonationRegistrationForm/DonationRegistration";
-import DonationFormContext from "./pages/DonorModule/DonationRegistrationForm/DonationFormContext/DonationFormContext";
+
 import DonationDashboardContext from "./pages/DonorModule/DonationDashboard/DonatationDshboardContext/DonationDashboardContext";
 import DonationDashbaord from "./pages/DonorModule/DonationDashboard/DonationDashbaord";
 import Footer from "./pages/GlobalPages/Footer/Footer";
 import NgoTimeline from "./pages/NGOmodule/AddNgoForm/NgoTimeline/NgoTimeline";
 import Admin from "./pages/AdminDashboard/Admin";
+import AddNgoForm from "./pages/NGOmodule/AddNgoForm/NgoRegForm/AddNgoForm";
 import DonationSignupForm from "./pages/DonorModule/DonationSignInForm/DonationSignupForm";
+import AdminPage from "./pages/Authentication/AdminPage";
+import DonateForm from "./pages/DonorModule/DonateForm/DonateForm";
 
 // import Navbar from "./pages/GlobalPages/Navbar/Navbar";
 function App() {
@@ -43,13 +45,11 @@ function App() {
             path="/donor/timeline/reg"
             exact
             element={
-              <DonationFormContext>
-                <DonationRegistration />
-              </DonationFormContext>
+              <DonateForm/>
             }
           />
           <Route
-            path="/donor/timeline/reg/dash"
+            path="/donor/dash"
             exact
             element={
               <DonationDashboardContext>
@@ -62,6 +62,9 @@ function App() {
           <Route path="/admin/Dashboard" element={<Admin/>} />
           <Route path="/sign" element={ <DonationSignupForm/>} />
         
+          <Route path="/ngo/timeline/reg" element={  <AddNgoForm/>} />
+          <Route path="/admin" element={  <AdminPage/>} />
+          <Route path="/donated" element={  <DonateForm/>} />
           
           
         </Routes>

@@ -34,6 +34,7 @@ const DonationDashbaord = () => {
       <div className="DonationDashboardContainer">
         <div className="DonationDashboardupProfile">
           <div className="DonationDashboardupProfileHeader container">
+        
           {
             isAuthenticated && <div className="DonationDashboardupProfileHeaderImg">
             <img src={user.picture} alt={user.name} />

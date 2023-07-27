@@ -1,6 +1,7 @@
 
 import "./Making.css";
 import india from "./Image/imdiamap.png";
+import { Link } from "react-router-dom";
 // import { Link } from "react-router-dom";
 const MakingDiff = () => {
   return (
@@ -52,11 +53,12 @@ const MakingDiff = () => {
           </p>
           <div className="MakingDiffButton">
             <div className="MakingDiffButtonbtn">
-            <a href="/DonorLandingPage">
+            
+            <Link to="/donor">
               <button className="button-40 my-3" >
                 Donate Now
               </button>
-            </a>
+            </Link>
             </div>
           </div>
         </div>

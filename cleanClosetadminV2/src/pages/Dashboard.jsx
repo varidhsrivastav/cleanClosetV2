@@ -1,5 +1,8 @@
+import "../pages/Global.css"
 const Dashboard = () => {
-  return <div className="title"> Dashboard</div>;
+  return <div className="title"> Welcome to Admin Panel 
+    
+  </div>;
 };
 
 export default Dashboard;

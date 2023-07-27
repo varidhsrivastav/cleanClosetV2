@@ -1,4 +1,5 @@
 // import React from "react";
+import { Link } from "react-router-dom";
 import "./Service.css";
 
 const Service = () => {
@@ -57,11 +58,11 @@ const Service = () => {
             By donating clothes, you can help individuals who cannot afford to purchase new clothing, especially in low-income communities. Clothing is a basic necessity that everyone needs, and donating gently used or new clothes can provide warmth and protection to those in need. 
             </p>
             <div className="ServiceButton">
-            <a href="/DonorLandingPage">
+            <Link to="/donor">
               <button className="button-40 mt-8" >
                 Donate Now
               </button>
-            </a>
+            </Link>
             </div>
           </div>
         </div>
