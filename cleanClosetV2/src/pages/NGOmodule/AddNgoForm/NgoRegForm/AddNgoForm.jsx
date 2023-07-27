@@ -6,25 +6,22 @@ import buddha from "./Image/buddha.png";
 // import logo from "./Image/login.png";
 const AddNgoForm = () => {
   const [user, setUser] = useState({
-    ngoname:"",
-        ngoType:"",
-        NgoAddress:"",
-        ngodescription:"",
+    ngoname: "",
+    ngoType: "",
+    NgoAddress: "",
+    ngodescription: "",
   });
   let name, value;
-  const handleInput = (e)=>{
+  const handleInput = (e) => {
     console.log(e);
-    name= e.target.name;
+    name = e.target.name;
     value = e.target.value;
-    setUser({...user, [name]:value})
-  }
+    setUser({ ...user, [name]: value });
+  };
   const PostData = async (e) => {
     e.preventDefault();
-    const { ngoname,
-        ngoType,
-        NgoAddress,
-        ngodescription } = user;
-    const res = await fetch("http://localhost:5002/registerAdmin", {
+    const { ngoname, ngoType, NgoAddress, ngodescription } = user;
+    const res = await fetch("http://localhost:5002/addngo", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -33,7 +30,7 @@ const AddNgoForm = () => {
         ngoname,
         ngoType,
         NgoAddress,
-        ngodescription
+        ngodescription,
       }),
     });
     const data = await res.json();
@@ -50,7 +47,7 @@ const AddNgoForm = () => {
       <div className="DonationSignupFormComponants">
         <div className="DsFLeftSide">
           <div className="DsFleftSideContent">
-            <h1 className="">Add NGO to CleanCloset</h1>
+            <h1 className="text-6xl text-rrrpage">Add NGO to CleanCloset</h1>
           </div>
           <div className=" w-full flex justify-center">
             <form method="POST">
@@ -58,75 +55,53 @@ const AddNgoForm = () => {
                 <input
                   type="text"
                   className="form-control"
-                  value={user.name}
+                  value={user.ngoname}
                   onChange={handleInput}
-                  id="name"
-                  name="name"
+                  id="ngoname"
+                  name="ngoname"
                   aria-describedby="emailHelp"
-                  placeholder="Enter your name "
-                />
-              </div>
-              <div className="form-group mt-4">
-                <input
-                  type="email"
-                  className="form-control"
-                  value={user.email}
-                  onChange={handleInput}
-                  id="emai"
-                  name="email"
-                  aria-describedby="emailHelp"
-                  placeholder="Enter email"
-                />
-                <small id="emailHelp" className="form-text text-muted">
-                  We'll never share your email with anyone else.
-                </small>
-              </div>
-              <div className="form-group mt-4">
-                <input
-                  type="number"
-                  className="form-control"
-                  value={user.phone}
-                  onChange={handleInput}
-                  id="phone"
-                  name="phone"
-                  aria-describedby="emailHelp"
-                  placeholder="your phone number "
+                  placeholder="Enter Ngo name "
                 />
               </div>
               <div className="form-group mt-4">
                 <input
                   type="text"
                   className="form-control"
-                  value={user.work}
+                  value={user.ngoType}
                   onChange={handleInput}
-                  id="work"
-                  name="work"
+                  id="ngoType"
+                  name="ngoType"
                   aria-describedby="emailHelp"
-                  placeholder="Enter you work"
+                  placeholder="Enter ngo type"
+                />
+                
+              </div>
+              <div className="form-group mt-4">
+                <input
+                  type="text"
+                  className="form-control"
+                  value={user.NgoAddress}
+                  onChange={handleInput}
+                  id="NgoAddress"
+                  name="NgoAddress"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter your ngo Address"
                 />
               </div>
               <div className="form-group mt-4">
                 <input
-                  type="password"
-                  value={user.password}
-                  onChange={handleInput}
+                  type="text"
                   className="form-control"
-                  id="password"
-                  name="password"
-                  placeholder="Password"
+                  value={user.ngodescription}
+                  onChange={handleInput}
+                  id="ngodescription"
+                  name="ngodescription"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter your ngo decriotion"
                 />
               </div>
-              <div className="form-group mt-4">
-                <input
-                  type="password"
-                  className="form-control"
-                  value={user.cpassword}
-                  onChange={handleInput}
-                  id="cpassword"
-                  name="cpassword"
-                  placeholder="confirm Password"
-                />
-              </div>
+             
+             
 
               <input
                 type="submit"
